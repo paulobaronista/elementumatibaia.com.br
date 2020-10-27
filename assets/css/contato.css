@@ -1,0 +1,178 @@
+.contato .form-group {
+  margin-bottom: 10px;
+}
+
+.contato .tt {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #9aca3c;
+}
+
+.contato .tt p {
+  font-family: 'Dax';
+  font-weight: 400;
+  font-style: normal;
+  color: #204620;
+  font-size: 25px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.contato .form-control {
+  font-family: 'Dax';
+  font-weight: 300;
+  font-style: normal;
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+  border: 2px solid #b7c726;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contato .form-control::-webkit-input-placeholder {
+  color: #000000;
+}
+
+.contato .form-control:-ms-input-placeholder {
+  color: #000000;
+}
+
+.contato .form-control::-ms-input-placeholder {
+  color: #000000;
+}
+
+.contato .form-control::placeholder {
+  color: #000000;
+}
+
+.contato .line-r-off {
+  border-right: 0px solid transparent;
+}
+
+.contato .line-l-off {
+  border-left: 0px solid transparent;
+}
+
+.contato textarea {
+  height: 100px !important;
+}
+
+.contato .btn_enviar {
+  font-family: 'Dax';
+  font-weight: 500;
+  font-style: normal;
+  width: 95%;
+  background-color: #204620;
+  padding: 6px 12px;
+  font-size: 18px;
+  color: #fff;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-left: 5%;
+}
+
+.contato .bg {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  background-color: #9aca3c;
+}
+
+.contato .txt {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.contato .txt p {
+  font-family: 'Dax';
+  font-weight: 400;
+  font-style: normal;
+  color: #204620;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+footer {
+  padding-bottom: 20px;
+}
+
+footer h6 {
+  font-family: 'Dax';
+  font-weight: 400;
+  font-style: normal;
+  color: #f26722;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+footer figcaption,
+footer p {
+  font-family: 'Dax';
+  font-weight: 300;
+  font-style: normal;
+  color: #000000;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+footer figcaption {
+  margin-bottom: 20px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .contato .tt p {
+    font-size: 22px;
+    line-height: 22px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .contato .form-control {
+    height: 50px;
+  }
+  .contato .line-r-off {
+    border-right: 2px solid #b7c726;
+  }
+  .contato .line-l-off {
+    border-left: 2px solid #b7c726;
+  }
+  .contato .btn_enviar {
+    width: 100%;
+    margin-left: 0%;
+    padding: 12px 12px;
+  }
+  .contato .txt {
+    margin-bottom: 10px;
+  }
+  .contato .txt p {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  footer h6 {
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 20px;
+  }
+  footer figcaption {
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 10px;
+  }
+  footer p {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=contato.css.map */

@@ -17,16 +17,17 @@ class Contato extends CI_Controller{
             $nome = $this->input->post('nome');
             $email = $this->input->post('email');
             $telefone = $this->input->post('phone');
+            $cidade = $this->input->post('cidade');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.landingpagemodelo.com.br');
+            $assunto = utf8_decode('Contato enviado pelo site www.elementumatibaia.com.br');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@landingpagemodelo.com.br","$nome"); //senha: xxxxxx
-            $this->email->to('contato@landingpagemodelo.com.br');
-            $this->email->cc('landingpagemodelo.com, paulobaronista@gmail.com');
+            $this->email->from("contato@elementumatibaia.com.br","$nome");
+            $this->email->to('contato@elementumatibaia.com.br');
+            $this->email->cc('paulobaronista@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -34,21 +35,15 @@ class Contato extends CI_Controller{
             Nome:		{$nome}<br/>
                 E-mail:		{$email}<br/>
                     Telefone:	{$telefone}<br/>
-                        Mensagem:	{$mensagem}<br/>
-                            </body></html>");
+                        Cidade:	    {$cidade}<br/>
+                            Mensagem:	{$mensagem}<br/>
+                                </body></html>");
 
             if($this->email->send()){
                 redirect('contato/obrigado');
             }else{
                 redirect('contato/fail');
             }
-
-            //            if($this->email->send()){
-            //                redirect('http://racklavaloucas.com.br/contato/obrigado');
-            //            }else{
-            //                redirect('http://racklavaloucas.com.br/contato/fail');
-            //            }
-
         }
 
         $this->load->view('html_header', $data);

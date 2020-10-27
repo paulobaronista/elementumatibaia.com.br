@@ -1,0 +1,195 @@
+.contato {
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .tt {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        background-color: #9aca3c;
+
+        p {
+            font-family: 'Dax';
+            font-weight: 400;
+            font-style: normal;
+            color: #204620;
+            font-size: 25px;
+            line-height: 25px;
+            text-transform: uppercase;
+        }
+    }
+
+    .form-control {
+        font-family: 'Dax';
+        font-weight: 300;
+        font-style: normal;
+        height: 40px;
+        padding: 6px 12px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #000000;
+        border: 2px solid #b7c726;
+        border-radius: 0px;
+        box-shadow: none;
+
+        &::-webkit-input-placeholder {
+            color: #000000;
+        }
+
+        &:-ms-input-placeholder {
+            color: #000000;
+        }
+
+        &::placeholder {
+            color: #000000;
+        }
+    }
+
+    .line-r-off {
+        border-right: 0px solid transparent;
+    }
+
+    .line-l-off {
+        border-left: 0px solid transparent;
+    }
+
+    textarea {
+        height: 100px !important;
+    }
+
+    .btn_enviar {
+        font-family: 'Dax';
+        font-weight: 500;
+        font-style: normal;
+        width: 95%;
+        background-color: #204620;
+        padding: 6px 12px;
+        font-size: 18px;
+        color: #fff;
+        border: 0px solid transparent;
+        border-radius: 0px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-left: 5%;
+    }
+
+    .bg {
+        padding-top: 19px;
+        padding-bottom: 19px;
+        background-color: #9aca3c;
+    }
+
+    .txt {
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+        p {
+            font-family: 'Dax';
+            font-weight: 400;
+            font-style: normal;
+            color: #204620;
+            font-size: 25px;
+            line-height: 25px;
+        }
+    }
+}
+
+
+footer {
+    padding-bottom: 20px;
+
+    h6 {
+        font-family: 'Dax';
+        font-weight: 400;
+        font-style: normal;
+        color: #f26722;
+        font-size: 30px;
+        line-height: 35px;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+    }
+
+    figcaption,
+    p {
+        font-family: 'Dax';
+        font-weight: 300;
+        font-style: normal;
+        color: #000000;
+        font-size: 14px;
+        line-height: 14px;
+        text-transform: uppercase;
+    }
+
+    figcaption {
+        margin-bottom: 20px;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .contato {
+        .tt {
+            p {
+                font-size: 22px;
+                line-height: 22px;
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+        }
+
+        .form-control {
+            height: 50px;
+        }
+
+        .line-r-off {
+            border-right: 2px solid #b7c726;
+        }
+
+        .line-l-off {
+            border-left: 2px solid #b7c726;
+        }
+
+        .btn_enviar {
+            width: 100%;
+            margin-left: 0%;
+            padding: 12px 12px;
+        }
+
+        .txt {
+            margin-bottom: 10px;
+
+            p {
+                font-size: 20px;
+                line-height: 20px;
+            }
+        }
+    }
+
+    footer {
+        h6 {
+            font-size: 18px;
+            line-height: 23px;
+            margin-bottom: 20px;
+        }
+
+        figcaption {
+            font-size: 12px;
+            line-height: 12px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 12px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}
