@@ -1,3 +1,3 @@
-<section>
+<section class="bg-body">
    <?php $this->load->view($pagina_view); ?>
 </section>

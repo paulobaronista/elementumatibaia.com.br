@@ -126,6 +126,10 @@
   margin-top: 400px;
 }
 
+body {
+  background-color: #eae9d0;
+}
+
 .padding-off {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -161,7 +165,7 @@ p {
   display: table;
   margin: 10% auto 0;
   width: 40%;
-  background-color: #f1e720;
+  background-color: #f26722;
   padding: 20px 10px;
   position: relative;
 }
@@ -171,7 +175,7 @@ p {
   opacity: 1;
   position: absolute;
   right: 0;
-  top: -30px;
+  top: -35px;
   z-index: 999;
   color: #fff;
   font-size: 35px;
@@ -179,12 +183,12 @@ p {
 }
 
 .aviso div p {
-  font-family: 'VAG Rounded Std';
-  font-weight: 900;
+  font-family: 'Proxima Nova Rg';
+  font-weight: bold;
   font-style: normal;
   font-size: 18px;
   line-height: 1.667;
-  color: #ff0059;
+  color: #ffffff;
   text-transform: uppercase;
 }
 

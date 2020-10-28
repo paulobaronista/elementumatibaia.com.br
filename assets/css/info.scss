@@ -1,0 +1,65 @@
+.info {
+    padding-bottom: 30px;
+
+    h6 {
+        font-family: 'Proxima Nova Rg';
+        font-weight: normal;
+        font-style: normal; 
+        color: #204620;
+        text-transform: uppercase;
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-family: 'Proxima Nova Rg';
+        font-weight: normal;
+        font-style: normal;
+        color: #000000;
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    span {
+        display: table;
+        margin: 0 auto;
+        height: 3px;
+        background-color: #f26722;
+        width: 50%;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .info {
+        padding-bottom: 20px;
+
+        h6 {
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 20px;
+            margin-bottom: 0;;
+        }
+
+        span {
+            width: 70%;
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

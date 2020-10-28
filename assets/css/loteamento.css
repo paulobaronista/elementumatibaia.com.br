@@ -1,0 +1,65 @@
+.loteamento {
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+
+.loteamento p {
+  font-family: 'Proxima Nova Rg';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.loteamento .txt-2 {
+  background-color: #f26722;
+  color: #fff;
+  font-size: 25px;
+  line-height: 25px;
+  display: table;
+  margin: 10px auto 0;
+  letter-spacing: 10px;
+  padding: 6px 90px 4px;
+}
+
+.loteamento .txt-3 {
+  font-size: 25px;
+  line-height: 25px;
+  color: #f26722;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.loteamento .txt-4 {
+  font-size: 25px;
+  line-height: 25px;
+  color: #00582c;
+  margin-top: 25px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .loteamento {
+    margin-top: 0px;
+    padding-bottom: 5px;
+  }
+  .loteamento .txt-2 {
+    font-size: 15px;
+    line-height: 15px;
+    padding: 4px 0px 4px;
+    display: block;
+  }
+  .loteamento .txt-3 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .loteamento .txt-4 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=loteamento.css.map */

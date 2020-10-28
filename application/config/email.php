@@ -4,7 +4,7 @@ if(!defined('BASEPATH')) exit('No direct script access allowed.');
 $config['protocol'] = 'smtp';
 $config['charset'] = 'utf8';
 $config['wordwrap'] = TRUE;
-$config['smtp_host'] = 'smtp.elementumatibaia.com.br';
+$config['smtp_host'] = 'mail.elementumatibaia.com.br';
 $config['smtp_user'] = 'contato@elementumatibaia.com.br';
 $config['smtp_pass'] = 'zrUJ8h02vVG9EkO';
 $config['smtp_port'] = 587;

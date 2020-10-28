@@ -1,12 +1,81 @@
-<br><br><br><br><br><br><br><br>
+<div class="galeria">
+    <section class="galeria-elementum slider">
+        <div>
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-01.png" alt="Elementum Residencial Atibaia">
+        </div>
+        <div>
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-02.png" alt="Elementum Residencial Atibaia">
+        </div>
+        <div>
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-03.png" alt="Elementum Residencial Atibaia">
+        </div>
+        <div>
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-04.png" alt="Elementum Residencial Atibaia">
+        </div>
+        <div>
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-05.png" alt="Elementum Residencial Atibaia">
+        </div>
+    </section>
+</div>
 
+<div class="loteamento">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <p class="txt-2">LOTEAMENTO FECHADO</p>
+                <p class="txt-4"><span class="txt-3">Visite Stand de Vendas:</span> Estrada Municipal Luciano Rocha Peçanha, 2795 • Bairro Ressaca</p>
+            </div>
+        </div>
+    </div>
+</div>
 
-
+<div class="info">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <h6>
+                    Aqui, o lazer é mais um elemento vital para seu bem-estar.
+                </h6>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                    <p>
+                        • Portaria<br>
+                        • Clube<br>
+                        • Praça elementos<br>
+                        • Clube Esportes<br>
+                        • Salão de Festas Festas
+                    </p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                    <p>
+                        • Pet Place com Pet Wah<br>
+                        • Praça da Água com píer<br>
+                        • Praça do Fogo<br>
+                        • Praça do Ar<br>
+                        • Praça Redário
+                    </p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                    <p>
+                        • Quadra Tenis<br>
+                        • Praça Ponto de Encontro (Jovem)<br>
+                        • Playgrounds<br>
+                        • Piscina
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <span></span>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="contato">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
                 <form method="post" role="form" action="<?php echo base_url("contato") ?>">
                     <div class="group-form">
                         <div class="col-xs-12 col-sm-12 col-md-12 padding-off form-group text-center tt">
@@ -18,11 +87,14 @@
                         <div class="col-xs-12 col-sm-6 col-md-6 padding-off form-group">
                             <input id="email" type="email" class="email line-l-off form-control" name="email" required="required" placeholder="Email*" />
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-6 padding-off form-group">
+                        <div class="col-xs-12 col-sm-5 col-md-5 padding-off form-group">
                             <input id="telefone" class="phone line-r-off form-control" type="tel" name="phone" required="required" placeholder="Celular*" />
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-6 padding-off form-group">
-                            <input id="cidade" class="cidade line-l-off form-control" type="text" name="cidade" placeholder="Cidade" />
+                        <div class="col-xs-12 col-sm-4 col-md-4 padding-off form-group">
+                            <input id="cidade" class="cidade line-r-off line-l-off form-control" type="text" name="cidade" placeholder="Cidade" />
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-3 padding-off form-group">
+                            <input id="estado" class="estado line-l-off form-control" type="text" name="estado" placeholder="Estado" />
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 padding-off form-group">
                             <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" required="required" placeholder="Mensagem*"></textarea>
@@ -44,7 +116,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
                 <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                     <h6>
                         CONHEÇA O LUGAR QUE A NATUREZA CRIOU PARA VOCÊ<br>

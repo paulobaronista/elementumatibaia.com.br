@@ -189,6 +189,10 @@
   margin-top: 400px;
 }
 
+body {
+  background-color: #eae9d0;
+}
+
 .padding-off {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -224,7 +228,7 @@ p {
   display: table;
   margin: 10% auto 0;
   width: 40%;
-  background-color: #f1e720;
+  background-color: #f26722;
   padding: 20px 10px;
   position: relative;
 }
@@ -234,7 +238,7 @@ p {
   opacity: 1;
   position: absolute;
   right: 0;
-  top: -30px;
+  top: -35px;
   z-index: 999;
   color: #fff;
   font-size: 35px;
@@ -242,12 +246,12 @@ p {
 }
 
 .aviso div p {
-  font-family: 'VAG Rounded Std';
-  font-weight: 900;
+  font-family: 'Proxima Nova Rg';
+  font-weight: bold;
   font-style: normal;
   font-size: 18px;
   line-height: 1.667;
-  color: #ff0059;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -263,13 +267,128 @@ p {
   }
 }
 
-section {
-  background: url(../images/bg.jpg) no-repeat;
-  background-size: cover;
-  background-position: center top;
+/* Extra Small */
+/* Small */
+/* Medium */
+/* Large */
+.info {
+  padding-bottom: 30px;
+}
+
+.info h6 {
+  font-family: 'Proxima Nova Rg';
+  font-weight: normal;
+  font-style: normal;
+  color: #204620;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-family: 'Proxima Nova Rg';
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.info span {
+  display: table;
+  margin: 0 auto;
+  height: 3px;
+  background-color: #f26722;
+  width: 50%;
 }
 
 /* Extra Small */
+@media (max-width: 767px) {
+  .info {
+    padding-bottom: 20px;
+  }
+  .info h6 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  .info p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+  .info span {
+    width: 70%;
+    margin-top: 20px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.loteamento {
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+
+.loteamento p {
+  font-family: 'Proxima Nova Rg';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.loteamento .txt-2 {
+  background-color: #f26722;
+  color: #fff;
+  font-size: 25px;
+  line-height: 25px;
+  display: table;
+  margin: 10px auto 0;
+  letter-spacing: 10px;
+  padding: 6px 90px 4px;
+}
+
+.loteamento .txt-3 {
+  font-size: 25px;
+  line-height: 25px;
+  color: #f26722;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.loteamento .txt-4 {
+  font-size: 25px;
+  line-height: 25px;
+  color: #00582c;
+  margin-top: 25px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .loteamento {
+    margin-top: 0px;
+    padding-bottom: 5px;
+  }
+  .loteamento .txt-2 {
+    font-size: 15px;
+    line-height: 15px;
+    padding: 4px 0px 4px;
+    display: block;
+  }
+  .loteamento .txt-3 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .loteamento .txt-4 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+}
+
 /* Small */
 /* Medium */
 /* Large */
@@ -284,17 +403,17 @@ section {
 }
 
 .contato .tt p {
-  font-family: 'Dax';
+  font-family: 'Proxima Nova Rg';
   font-weight: 400;
   font-style: normal;
   color: #204620;
-  font-size: 25px;
-  line-height: 25px;
+  font-size: 22px;
+  line-height: 22px;
   text-transform: uppercase;
 }
 
 .contato .form-control {
-  font-family: 'Dax';
+  font-family: 'Proxima Nova Rg';
   font-weight: 300;
   font-style: normal;
   height: 40px;
@@ -309,19 +428,19 @@ section {
 }
 
 .contato .form-control::-webkit-input-placeholder {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .contato .form-control:-ms-input-placeholder {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .contato .form-control::-ms-input-placeholder {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .contato .form-control::placeholder {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .contato .line-r-off {
@@ -337,7 +456,7 @@ section {
 }
 
 .contato .btn_enviar {
-  font-family: 'Dax';
+  font-family: 'Proxima Nova Rg';
   font-weight: 500;
   font-style: normal;
   width: 95%;
@@ -364,7 +483,7 @@ section {
 }
 
 .contato .txt p {
-  font-family: 'Dax';
+  font-family: 'Proxima Nova Rg';
   font-weight: 400;
   font-style: normal;
   color: #204620;
@@ -377,36 +496,36 @@ footer {
 }
 
 footer h6 {
-  font-family: 'Dax';
+  font-family: 'Proxima Nova Rg';
   font-weight: 400;
   font-style: normal;
   color: #f26722;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 25px;
+  line-height: 30px;
   text-transform: uppercase;
   margin-bottom: 60px;
 }
 
 footer figcaption,
 footer p {
-  font-family: 'Dax';
+  font-family: 'Proxima Nova Rg';
   font-weight: 300;
   font-style: normal;
   color: #000000;
-  font-size: 14px;
-  line-height: 14px;
-  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 13px;
 }
 
 footer figcaption {
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 /* Extra Small */
 @media (max-width: 767px) {
   .contato .tt p {
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 18px;
     padding-right: 10px;
     padding-left: 10px;
   }

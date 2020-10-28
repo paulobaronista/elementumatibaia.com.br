@@ -1,23 +1,27 @@
 <?php
-if(!defined('BASEPATH')) exit('No direct script access allowed');
+if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Contato extends CI_Controller{
+class Contato extends CI_Controller
+{
 
-    public function __construct(){
+    public function __construct()
+    {
         parent::__construct();
     }
-    public function index(){
-        $data['title'] = 'LANDINGPAGEMODELO';
+    public function index()
+    {
+        $data['title'] = 'Elementum Residencial Atibaia';
         $data['description'] = 'description';
         $data['keywords'] = 'keywords';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
-        if($this->input->post('enviar_email') == "enviar"){
+        if ($this->input->post('enviar_email') == "enviar") {
             $nome = $this->input->post('nome');
             $email = $this->input->post('email');
             $telefone = $this->input->post('phone');
             $cidade = $this->input->post('cidade');
+            $estado = $this->input->post('estado');
             $mensagem = utf8_decode($this->input->post('mss'));
             $assunto = utf8_decode('Contato enviado pelo site www.elementumatibaia.com.br');
 
@@ -25,7 +29,7 @@ class Contato extends CI_Controller{
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@elementumatibaia.com.br","$nome");
+            $this->email->from("contato@elementumatibaia.com.br", "Elementum Residencial Atibaia");
             $this->email->to('contato@elementumatibaia.com.br');
             $this->email->cc('paulobaronista@gmail.com');
 
@@ -36,12 +40,13 @@ class Contato extends CI_Controller{
                 E-mail:		{$email}<br/>
                     Telefone:	{$telefone}<br/>
                         Cidade:	    {$cidade}<br/>
-                            Mensagem:	{$mensagem}<br/>
-                                </body></html>");
+                            Estado:	    {$estado}<br/>
+                                Mensagem:	{$mensagem}<br/>
+                                    </body></html>");
 
-            if($this->email->send()){
+            if ($this->email->send()) {
                 redirect('contato/obrigado');
-            }else{
+            } else {
                 redirect('contato/fail');
             }
         }
@@ -54,8 +59,9 @@ class Contato extends CI_Controller{
         $this->load->view('html_footer');
     }
 
-    public function obrigado(){
-        $data['title'] = 'LANDINGPAGEMODELO';
+    public function obrigado()
+    {
+        $data['title'] = 'Elementum Residencial Atibaia';
         $data['description'] = 'description';
         $data['keywords'] = 'keywords';
         $menu['contato'] = 'active';
@@ -68,8 +74,9 @@ class Contato extends CI_Controller{
         $this->load->view('html_footer');
     }
 
-    public function fail(){
-        $data['title'] = 'LANDINGPAGEMODELO';
+    public function fail()
+    {
+        $data['title'] = 'Elementum Residencial Atibaia';
         $data['description'] = 'description';
         $data['keywords'] = 'keywords';
         $menu['contato'] = 'active';
@@ -81,7 +88,6 @@ class Contato extends CI_Controller{
         $this->load->view('rodape');
         $this->load->view('html_footer');
     }
-
 }
 
 /* Location: ./application/controllers/contato.php */
