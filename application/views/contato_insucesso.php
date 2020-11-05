@@ -1,19 +1,19 @@
 <div class="galeria">
     <section class="galeria-elementum slider">
         <div>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-01.png" alt="Elementum Residencial Atibaia">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-01.png?1551369906076" alt="Elementum Residencial Atibaia">
         </div>
         <div>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-02.png" alt="Elementum Residencial Atibaia">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-02.png?1551369906076" alt="Elementum Residencial Atibaia">
         </div>
         <div>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-03.png" alt="Elementum Residencial Atibaia">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-03.png?1551369906076" alt="Elementum Residencial Atibaia">
         </div>
         <div>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-04.png" alt="Elementum Residencial Atibaia">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-04.png?1551369906076" alt="Elementum Residencial Atibaia">
         </div>
         <div>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-05.png" alt="Elementum Residencial Atibaia">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-05.png?1551369906076" alt="Elementum Residencial Atibaia">
         </div>
     </section>
 </div>
