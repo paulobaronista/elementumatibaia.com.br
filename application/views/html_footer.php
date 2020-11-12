@@ -5,5 +5,6 @@ echo script_tag('assets/js/jquery.clearinput.js');
 echo script_tag('assets/js/jFuncoes.js');
 echo script_tag('assets/js/bootstrap.min.js');
 ?>
+
 </body>
 </html>

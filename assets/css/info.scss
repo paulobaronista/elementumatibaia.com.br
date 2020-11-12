@@ -27,7 +27,12 @@
         margin: 0 auto;
         height: 3px;
         background-color: #f26722;
-        width: 50%;
+        width: 40%;
+    }
+    .row {
+        background: url(../images/emuitomais.png);
+        background-repeat: no-repeat;
+        background-position: 90% 100%;
     }
 }
 
@@ -52,11 +57,26 @@
             width: 70%;
             margin-top: 20px;
         }
+        .row {
+            background: url(../images/emuitomais.png);
+            background-repeat: no-repeat;
+            background-position: 95% 95%;
+            background-size: 35%;
+        }
     }
 }
 
 /* Small */
-@media(min-width:768px) and (max-width:991px) {}
+@media(min-width:768px) and (max-width:991px) {
+    .info {
+        .row {
+            background: url(../images/emuitomais.png);
+            background-repeat: no-repeat;
+            background-position: 100% 100%;
+            padding-bottom: 20px;
+        }
+    }
+}
 
 /* Medium */
 @media(min-width:992px) and (max-width:1199px) {}

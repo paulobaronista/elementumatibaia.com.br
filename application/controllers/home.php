@@ -20,6 +20,32 @@ class Home extends CI_Controller{
         $this->load->view('html_footer');
 
     }
+    public function politicadeprivacidade(){
+        $data['title'] = 'Elementum Residencial Atibaia';
+        $data['description'] = 'description';
+        $data['keywords'] = 'keywords';
+        $menu['politicadeprivacidade'] = 'active';
+		$conteudo['pagina_view'] = 'politicadeprivacidade_view';
+		$this->load->view('html_header', $data);
+		$this->load->view('header');
+		$this->load->view('menu', $menu);
+		$this->load->view('conteudo', $conteudo);
+		$this->load->view('rodape');
+		$this->load->view('html_footer');
+    }
+    public function politicadecookies(){
+        $data['title'] = 'Elementum Residencial Atibaia';
+        $data['description'] = 'description';
+        $data['keywords'] = 'keywords';
+        $menu['politicadecookies'] = 'active';
+		$conteudo['pagina_view'] = 'politicadecookies_view';
+		$this->load->view('html_header', $data);
+		$this->load->view('header');
+		$this->load->view('menu', $menu);
+		$this->load->view('conteudo', $conteudo);
+		$this->load->view('rodape');
+		$this->load->view('html_footer');
+	}
 
 }
 

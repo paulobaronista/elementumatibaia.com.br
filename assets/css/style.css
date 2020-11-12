@@ -301,7 +301,13 @@ p {
   margin: 0 auto;
   height: 3px;
   background-color: #f26722;
-  width: 50%;
+  width: 40%;
+}
+
+.info .row {
+  background: url(../images/emuitomais.png);
+  background-repeat: no-repeat;
+  background-position: 90% 100%;
 }
 
 /* Extra Small */
@@ -323,9 +329,24 @@ p {
     width: 70%;
     margin-top: 20px;
   }
+  .info .row {
+    background: url(../images/emuitomais.png);
+    background-repeat: no-repeat;
+    background-position: 95% 95%;
+    background-size: 35%;
+  }
 }
 
 /* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .info .row {
+    background: url(../images/emuitomais.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    padding-bottom: 20px;
+  }
+}
+
 /* Medium */
 /* Large */
 .loteamento {
@@ -343,11 +364,17 @@ p {
   background-color: #f26722;
   color: #fff;
   font-size: 25px;
-  line-height: 25px;
+  line-height: 30px;
   display: table;
   margin: 10px auto 0;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   padding: 6px 90px 4px;
+  text-transform: uppercase;
+}
+
+.loteamento .txt-2 span {
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .loteamento .txt-3 {
@@ -373,19 +400,23 @@ p {
   }
   .loteamento .txt-2 {
     font-size: 15px;
-    line-height: 15px;
+    line-height: 20px;
     padding: 4px 0px 4px;
     display: block;
   }
+  .loteamento .txt-2 span {
+    font-size: 12px;
+    line-height: 12px;
+  }
   .loteamento .txt-3 {
-    font-size: 20px;
-    line-height: 20px;
-    margin-top: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 15px;
   }
   .loteamento .txt-4 {
-    font-size: 20px;
-    line-height: 20px;
-    margin-top: 10px;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 15px;
   }
 }
 
@@ -404,7 +435,7 @@ p {
 
 .contato .tt p {
   font-family: 'Proxima Nova Rg';
-  font-weight: 400;
+  font-weight: bold;
   font-style: normal;
   color: #204620;
   font-size: 22px;
@@ -492,12 +523,12 @@ p {
 }
 
 footer {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 footer h6 {
   font-family: 'Proxima Nova Rg';
-  font-weight: 400;
+  font-weight: bold;
   font-style: normal;
   color: #f26722;
   font-size: 25px;
@@ -516,9 +547,92 @@ footer p {
   line-height: 13px;
 }
 
+footer p {
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 17px;
+}
+
 footer figcaption {
   margin-bottom: 20px;
   text-transform: uppercase;
+}
+
+footer .navbar-nav {
+  margin-top: 20px;
+}
+
+footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Proxima Nova Rg';
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  border-right: 1px solid #000;
+}
+
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
+.cookies {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  height: 100%;
+  top: 0;
+  display: none;
+}
+
+.cookies .box {
+  background-color: #204620;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.cookies .box p {
+  font-family: 'Proxima Nova Rg';
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 7px;
+}
+
+.cookies .box .btn_cookie {
+  font-family: 'Proxima Nova Rg';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  border: 0px solid transparent;
+  border-radius: 50px;
+  padding: 12px 30px;
+  width: 160px;
+  margin-top: 7px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #f26722;
 }
 
 /* Extra Small */
@@ -531,6 +645,9 @@ footer figcaption {
   }
   .contato .form-control {
     height: 50px;
+  }
+  .contato textarea {
+    height: 150px !important;
   }
   .contato .line-r-off {
     border-right: 2px solid #b7c726;
@@ -556,16 +673,72 @@ footer figcaption {
     margin-bottom: 20px;
   }
   footer figcaption {
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 11px;
+    line-height: 11px;
     margin-bottom: 10px;
   }
   footer p {
+    padding-left: 0px;
+    padding-right: 0px;
     font-size: 12px;
     line-height: 12px;
   }
+  footer .navbar-nav li > a {
+    border-right: 0px solid transparent;
+  }
+  .cookies .box {
+    padding-top: 10px;
+  }
+  .cookies .box .btn_cookie {
+    margin-top: 20px;
+  }
 }
 
+/* Small */
+/* Medium */
+/* Large */
+.politica {
+  padding-bottom: 50px;
+}
+
+.politica .politica-tt {
+  background-color: #9aca3c;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.politica .politica-tt h3 {
+  font-family: 'Proxima Nova Rg';
+  font-weight: bold;
+  font-style: normal;
+  color: #204620;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.politica .politica-info {
+  margin-top: 30px;
+}
+
+.politica .politica-info p {
+  font-family: 'Proxima Nova Rg';
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.politica .politica-info p a {
+  color: #EC2c27;
+  text-decoration: underline;
+}
+
+/* Extra Small */
 /* Small */
 /* Medium */
 /* Large */

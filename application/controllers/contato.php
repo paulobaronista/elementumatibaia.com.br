@@ -22,6 +22,7 @@ class Contato extends CI_Controller
             $telefone = $this->input->post('phone');
             $cidade = $this->input->post('cidade');
             $estado = $this->input->post('estado');
+            $forma = $this->input->post('forma');
             $mensagem = utf8_decode($this->input->post('mss'));
             $assunto = utf8_decode('Contato enviado pelo site www.elementumatibaia.com.br');
 
@@ -36,13 +37,14 @@ class Contato extends CI_Controller
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
             <head> <meta http-equiv='content-type' content='text/html;charset=UTF-8' /> </head><body>
-            Nome:		{$nome}<br/>
-                E-mail:		{$email}<br/>
-                    Telefone:	{$telefone}<br/>
-                        Cidade:	    {$cidade}<br/>
-                            Estado:	    {$estado}<br/>
-                                Mensagem:	{$mensagem}<br/>
-                                    </body></html>");
+            Nome:		      {$nome}<br/>
+            E-mail:		      {$email}<br/>
+            Telefone:	      {$telefone}<br/>
+            Cidade:	          {$cidade}<br/>
+            Estado:	          {$estado}<br/>
+            Forma de Contato: {$forma}<br/>
+            Mensagem:	      {$mensagem}<br/>
+            </body></html>");
 
             if ($this->email->send()) {
                 redirect('contato/obrigado');

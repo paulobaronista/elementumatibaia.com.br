@@ -10,7 +10,7 @@
 
 .contato .tt p {
   font-family: 'Proxima Nova Rg';
-  font-weight: 400;
+  font-weight: bold;
   font-style: normal;
   color: #204620;
   font-size: 22px;
@@ -98,12 +98,12 @@
 }
 
 footer {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 footer h6 {
   font-family: 'Proxima Nova Rg';
-  font-weight: 400;
+  font-weight: bold;
   font-style: normal;
   color: #f26722;
   font-size: 25px;
@@ -122,9 +122,92 @@ footer p {
   line-height: 13px;
 }
 
+footer p {
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 17px;
+}
+
 footer figcaption {
   margin-bottom: 20px;
   text-transform: uppercase;
+}
+
+footer .navbar-nav {
+  margin-top: 20px;
+}
+
+footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Proxima Nova Rg';
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  border-right: 1px solid #000;
+}
+
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
+.cookies {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  height: 100%;
+  top: 0;
+  display: none;
+}
+
+.cookies .box {
+  background-color: #204620;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.cookies .box p {
+  font-family: 'Proxima Nova Rg';
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 7px;
+}
+
+.cookies .box .btn_cookie {
+  font-family: 'Proxima Nova Rg';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  border: 0px solid transparent;
+  border-radius: 50px;
+  padding: 12px 30px;
+  width: 160px;
+  margin-top: 7px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #f26722;
 }
 
 /* Extra Small */
@@ -137,6 +220,9 @@ footer figcaption {
   }
   .contato .form-control {
     height: 50px;
+  }
+  .contato textarea {
+    height: 150px !important;
   }
   .contato .line-r-off {
     border-right: 2px solid #b7c726;
@@ -162,13 +248,24 @@ footer figcaption {
     margin-bottom: 20px;
   }
   footer figcaption {
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 11px;
+    line-height: 11px;
     margin-bottom: 10px;
   }
   footer p {
+    padding-left: 0px;
+    padding-right: 0px;
     font-size: 12px;
     line-height: 12px;
+  }
+  footer .navbar-nav li > a {
+    border-right: 0px solid transparent;
+  }
+  .cookies .box {
+    padding-top: 10px;
+  }
+  .cookies .box .btn_cookie {
+    margin-top: 20px;
   }
 }
 

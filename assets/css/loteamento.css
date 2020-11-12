@@ -13,11 +13,17 @@
   background-color: #f26722;
   color: #fff;
   font-size: 25px;
-  line-height: 25px;
+  line-height: 30px;
   display: table;
   margin: 10px auto 0;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   padding: 6px 90px 4px;
+  text-transform: uppercase;
+}
+
+.loteamento .txt-2 span {
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .loteamento .txt-3 {
@@ -43,19 +49,23 @@
   }
   .loteamento .txt-2 {
     font-size: 15px;
-    line-height: 15px;
+    line-height: 20px;
     padding: 4px 0px 4px;
     display: block;
   }
+  .loteamento .txt-2 span {
+    font-size: 12px;
+    line-height: 12px;
+  }
   .loteamento .txt-3 {
-    font-size: 20px;
-    line-height: 20px;
-    margin-top: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 15px;
   }
   .loteamento .txt-4 {
-    font-size: 20px;
-    line-height: 20px;
-    margin-top: 10px;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 15px;
   }
 }
 
