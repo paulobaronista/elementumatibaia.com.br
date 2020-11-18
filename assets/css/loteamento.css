@@ -1,5 +1,5 @@
 .loteamento {
-  margin-top: 20px;
+  margin-top: 10px;
   padding-bottom: 30px;
 }
 
@@ -13,10 +13,10 @@
   background-color: #f26722;
   color: #fff;
   font-size: 25px;
-  line-height: 30px;
+  line-height: 45px;
   display: table;
-  margin: 10px auto 0;
-  letter-spacing: 2px;
+  margin: 0 auto 0;
+  letter-spacing: 4px;
   padding: 6px 90px 4px;
   text-transform: uppercase;
 }

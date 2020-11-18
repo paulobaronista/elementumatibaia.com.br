@@ -1,19 +1,19 @@
 <div class="galeria">
     <section class="galeria-elementum slider">
         <div>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-01.png?1551369906077" alt="Elementum Residencial Atibaia">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-01.png?1551369906078" alt="Elementum Residencial Atibaia">
         </div>
         <div>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-02.png?1551369906077" alt="Elementum Residencial Atibaia">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-02.png?1551369906078" alt="Elementum Residencial Atibaia">
         </div>
         <div>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-03.png?1551369906077" alt="Elementum Residencial Atibaia">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-03.png?1551369906078" alt="Elementum Residencial Atibaia">
         </div>
         <div>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-04.png?1551369906077" alt="Elementum Residencial Atibaia">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-04.png?1551369906078" alt="Elementum Residencial Atibaia">
         </div>
         <div>
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-05.png?1551369906077" alt="Elementum Residencial Atibaia">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/slide-05.png?1551369906078" alt="Elementum Residencial Atibaia">
         </div>
     </section>
 </div>
@@ -23,9 +23,9 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <p class="txt-2">LOTEAMENTO FECHADO<br>
-                    <span>TERRENOS A PARTIR DE 360 M²</span>
+                    <span>TERRENOS A PARTIR DE 360M²</span>
                 </p>
-                <p class="txt-4"><span class="txt-3">Visite ShowRoom:</span> Estrada Municipal Luciano Rocha Peçanha, 2795 • Bairro Ressaca</p>
+                <!-- <p class="txt-4"><span class="txt-3">Visite ShowRoom:</span> Estrada Municipal Luciano Rocha Peçanha, 2795 • Bairro Ressaca</p> -->
             </div>
         </div>
     </div>
@@ -121,7 +121,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 text-center txt">
                 <p>Em breve nosso consultor retornará com as informações.</p>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off mapa">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off mapa">
                 <div class="col-xs-12 col-sm-8 col-md-8">
                     <a href="">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/mapa.jpg" alt="Mapa">
@@ -131,7 +131,7 @@
                     <h6>Visite ShowRoom:</h6>
                     <p>Estrada Municipal Luciano Rocha Peçanha, 2795<br>
                         Bairro Ressaca – Atibaia<br>
-                        à apenas 50 min de São Paulo</p>
+                        À apenas 50 min de São Paulo</p>
                 </div>
             </div>
         </div>

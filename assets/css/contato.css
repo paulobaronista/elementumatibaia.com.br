@@ -125,18 +125,18 @@
 }
 
 .contato .mapa h6 {
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 30px;
+  line-height: 30px;
   color: #f26722;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 5px;
-  margin-top: 0;
+  margin-top: 145px;
 }
 
 .contato .mapa p {
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 25px;
+  line-height: 30px;
   color: #00582c;
 }
 

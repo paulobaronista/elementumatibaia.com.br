@@ -33,7 +33,7 @@
     );
     echo meta($meta);
     echo link_tag('assets/css/bootstrap.min.css');
-    echo link_tag('assets/css/style.css?v=06');
+    echo link_tag('assets/css/style.css?v=07');
     echo link_tag('assets/css/slick.css');
     echo link_tag('assets/css/slick-theme.css');
     ?>
