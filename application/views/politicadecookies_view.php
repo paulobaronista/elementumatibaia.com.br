@@ -19,15 +19,15 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+            <!-- <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <h6>
                     CONHEÇA O LUGAR QUE A NATUREZA CRIOU PARA VOCÊ E SUA FAMÍLIA VIVEREM MELHOR.
                 </h6>
-            </div>
+            </div> -->
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
                 <div class="col-xs-6 col-sm-6 col-md-6">
                     <figure>
-                        <figcaption>futura intermediação:</figcaption>
+                        <figcaption>Planejamento e Futuras vendas:</figcaption>
                         <img class="img-responsive" src="<?= base_url(); ?>assets/images/coelhodafonseca.png" alt="Coelho da Fonseca">
                     </figure>
                 </div>

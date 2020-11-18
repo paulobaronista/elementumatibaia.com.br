@@ -16,14 +16,14 @@
   line-height: 30px;
   display: table;
   margin: 10px auto 0;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   padding: 6px 90px 4px;
   text-transform: uppercase;
 }
 
 .loteamento .txt-2 span {
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 35px;
+  line-height: 35px;
 }
 
 .loteamento .txt-3 {
@@ -54,8 +54,8 @@
     display: block;
   }
   .loteamento .txt-2 span {
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 20px;
+    line-height: 25px;
   }
   .loteamento .txt-3 {
     font-size: 18px;

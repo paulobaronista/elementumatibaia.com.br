@@ -22,7 +22,9 @@ class Contato extends CI_Controller
             $telefone = $this->input->post('phone');
             $cidade = $this->input->post('cidade');
             $estado = $this->input->post('estado');
-            $forma = $this->input->post('forma');
+            $checkboxEmail = $this->input->post('checkboxEmail');
+            $checkboxWhatsApp = $this->input->post('checkboxWhatsApp');
+            $checkboxTelefone = $this->input->post('checkboxTelefone');
             $mensagem = utf8_decode($this->input->post('mss'));
             $assunto = utf8_decode('Contato enviado pelo site www.elementumatibaia.com.br');
 
@@ -42,7 +44,7 @@ class Contato extends CI_Controller
             Telefone:	      {$telefone}<br/>
             Cidade:	          {$cidade}<br/>
             Estado:	          {$estado}<br/>
-            Forma de Contato: {$forma}<br/>
+            Preferência forma de contato: ($checkboxEmail) E-mail ($checkboxWhatsApp) WhatsApp ($checkboxTelefone) Telefone<br/>
             Mensagem:	      {$mensagem}<br/>
             </body></html>");
 

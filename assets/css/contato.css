@@ -18,6 +18,22 @@
   text-transform: uppercase;
 }
 
+.contato .checkbox-inline {
+  font-family: 'Proxima Nova Rg';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.contato .box-check {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 2px solid #b7c726;
+  background-color: #fff;
+}
+
 .contato .form-control {
   font-family: 'Proxima Nova Rg';
   font-weight: 300;
@@ -84,7 +100,7 @@
 }
 
 .contato .txt {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -95,6 +111,33 @@
   color: #204620;
   font-size: 25px;
   line-height: 25px;
+}
+
+.contato .mapa {
+  margin-bottom: 30px;
+}
+
+.contato .mapa h6,
+.contato .mapa p {
+  font-family: 'Proxima Nova Rg';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.contato .mapa h6 {
+  font-size: 20px;
+  line-height: 20px;
+  color: #f26722;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.contato .mapa p {
+  font-size: 20px;
+  line-height: 23px;
+  color: #00582c;
 }
 
 footer {
@@ -241,6 +284,9 @@ footer .navbar-nav li:last-child a {
   .contato .txt p {
     font-size: 20px;
     line-height: 20px;
+  }
+  .contato .mapa h6 {
+    margin-top: 20px;
   }
   footer h6 {
     font-size: 18px;

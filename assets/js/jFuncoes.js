@@ -54,18 +54,22 @@ $(function () {
 	$('.phone').clear();
 	$('.cidade').clear();
 	$('.estado').clear();
-	$('.forma').clear();
+	$('.checkboxEmail').clear();
+	$('.checkboxWhatsApp').clear();
+	$('.checkboxTelefone').clear();
 	$('.msg').clear();
 
 	$('.btn_enviar').on('click', function () {
-		var n, e, c, s, t, f, m;
+		var n, e, c, s, t, ce, cw, ct, m;
 		var msg = "";
 		n = $('.nome').val();
 		e = $('.email').val();
 		c = $('.cidade').val();
 		s = $('.estado').val();
 		t = $('.phone').val();
-		f = $('.forma').val();
+		ce = $('.checkboxEmail').val();
+		cw = $('.checkboxWhatsApp').val();
+		ct = $('.checkboxTelefone').val();
 		m = $('.msg').val();
 	});
 });
