@@ -1,6 +1,6 @@
 .loteamento {
-    margin-top: 10px;
-    padding-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 20px;
 
     p {
         font-family: 'Proxima Nova Rg';
@@ -16,7 +16,7 @@
         display: table;
         margin: 0 auto 0;
         letter-spacing: 4px;
-        padding: 6px 90px 4px;
+        padding: 6px 120px 4px;
         text-transform: uppercase;
         span {
             font-size: 35px;
@@ -43,7 +43,7 @@
 /* Extra Small */
 @media(max-width:767px) {
     .loteamento {
-        margin-top: 0px;
+        margin-top: 10px;
         padding-bottom: 5px;
         .txt-2 {
             font-size: 15px;

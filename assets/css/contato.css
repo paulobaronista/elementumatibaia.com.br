@@ -4,13 +4,14 @@
 
 .contato .tt {
   padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 13px;
   background-color: #9aca3c;
+  border-radius: 5px;
 }
 
 .contato .tt p {
   font-family: 'Proxima Nova Rg';
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
   color: #204620;
   font-size: 22px;
@@ -32,6 +33,7 @@
   padding-bottom: 8px;
   border: 2px solid #b7c726;
   background-color: #fff;
+  border-radius: 5px;
 }
 
 .contato .form-control {
@@ -44,7 +46,7 @@
   text-transform: uppercase;
   color: #000000;
   border: 2px solid #b7c726;
-  border-radius: 0px;
+  border-radius: 5px;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -67,10 +69,14 @@
 
 .contato .line-r-off {
   border-right: 0px solid transparent;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .contato .line-l-off {
   border-left: 0px solid transparent;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 .contato textarea {
@@ -85,9 +91,9 @@
   background-color: #204620;
   padding: 6px 12px;
   font-size: 18px;
-  color: #fff;
+  color: #9aca3c;
   border: 0px solid transparent;
-  border-radius: 0px;
+  border-radius: 5px;
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-left: 5%;
@@ -97,6 +103,7 @@
   padding-top: 19px;
   padding-bottom: 19px;
   background-color: #9aca3c;
+  border-radius: 5px;
 }
 
 .contato .txt {
@@ -114,6 +121,7 @@
 }
 
 .contato .mapa {
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -125,8 +133,8 @@
 }
 
 .contato .mapa h6 {
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 25px;
+  line-height: 25px;
   color: #f26722;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -135,8 +143,8 @@
 }
 
 .contato .mapa p {
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 25px;
   color: #00582c;
 }
 
@@ -269,9 +277,11 @@ footer .navbar-nav li:last-child a {
   }
   .contato .line-r-off {
     border-right: 2px solid #b7c726;
+    border-radius: 5px;
   }
   .contato .line-l-off {
     border-left: 2px solid #b7c726;
+    border-radius: 5px;
   }
   .contato .btn_enviar {
     width: 100%;
