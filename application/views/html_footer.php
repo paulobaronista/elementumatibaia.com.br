@@ -13,6 +13,16 @@ echo script_tag('assets/js/bootstrap.min.js');
     <a href="https://api.whatsapp.com/send?1=pt_BR&phone=+5511930352284" target="_blank" class="whats">Whatsapp</a>
 </div>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3N0GMLJV7T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3N0GMLJV7T');
+</script>
+
 </body>
 
 </html>

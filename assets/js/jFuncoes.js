@@ -57,10 +57,11 @@ $(function () {
 	$('.checkboxEmail').clear();
 	$('.checkboxWhatsApp').clear();
 	$('.checkboxTelefone').clear();
+	$('.checkboxPolitica').clear();
 	$('.msg').clear();
 
 	$('.btn_enviar').on('click', function () {
-		var n, e, c, s, t, ce, cw, ct, m;
+		var n, e, c, s, t, ce, cw, ct, cp, m;
 		var msg = "";
 		n = $('.nome').val();
 		e = $('.email').val();
@@ -70,6 +71,7 @@ $(function () {
 		ce = $('.checkboxEmail').val();
 		cw = $('.checkboxWhatsApp').val();
 		ct = $('.checkboxTelefone').val();
+		cp = $('.checkboxPolitica').val();
 		m = $('.msg').val();
 	});
 });

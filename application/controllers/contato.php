@@ -11,8 +11,8 @@ class Contato extends CI_Controller
     public function index()
     {
         $data['title'] = 'Elementum Residencial Atibaia';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['description'] = 'Loteamento fechado com terrenos a partir de 360M²';
+        $data['keywords'] = 'Complexo Aquático, Fitness, Beach Tênis, Clube Social e Esportivo, Pet Place e Pet Wash, Quadra de Tênis, Playgrounds';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -25,6 +25,7 @@ class Contato extends CI_Controller
             $checkboxEmail = $this->input->post('checkboxEmail');
             $checkboxWhatsApp = $this->input->post('checkboxWhatsApp');
             $checkboxTelefone = $this->input->post('checkboxTelefone');
+            $checkboxPolitica = $this->input->post('checkboxPolitica');
             $mensagem = utf8_decode($this->input->post('mss'));
             $assunto = utf8_decode('Contato enviado pelo site www.elementumatibaia.com.br');
 
@@ -34,7 +35,7 @@ class Contato extends CI_Controller
 
             $this->email->from("contato@elementumatibaia.com.br", "Elementum Residencial Atibaia");
             $this->email->to('contato@elementumatibaia.com.br');
-            $this->email->cc('paulobaronista@gmail.com, mv_cp_94f_300_1828_3079_14166_68525_3535_3535_faleconosco_hotsiteempreendimento@email.anapro.com.br');
+            $this->email->cc('mv_cp_94f_300_1828_3079_14166_68525_3535_3535_faleconosco_hotsiteempreendimento@email.anapro.com.br, renata@spicycomm.com.br, paulobaronista@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -45,6 +46,7 @@ class Contato extends CI_Controller
             Cidade:	          {$cidade}<br/>
             Estado:	          {$estado}<br/>
             Preferência forma de contato: ($checkboxEmail) E-mail ($checkboxWhatsApp) WhatsApp ($checkboxTelefone) Telefone<br/>
+            Li e concordo com a política de privacidade: {$checkboxPolitica}<br/>
             Mensagem:	      {$mensagem}<br/>
             </body></html>");
 
@@ -66,8 +68,8 @@ class Contato extends CI_Controller
     public function obrigado()
     {
         $data['title'] = 'Elementum Residencial Atibaia';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['description'] = 'Loteamento fechado com terrenos a partir de 360M²';
+        $data['keywords'] = 'Complexo Aquático, Fitness, Beach Tênis, Clube Social e Esportivo, Pet Place e Pet Wash, Quadra de Tênis, Playgrounds';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -81,8 +83,8 @@ class Contato extends CI_Controller
     public function fail()
     {
         $data['title'] = 'Elementum Residencial Atibaia';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['description'] = 'Loteamento fechado com terrenos a partir de 360M²';
+        $data['keywords'] = 'Complexo Aquático, Fitness, Beach Tênis, Clube Social e Esportivo, Pet Place e Pet Wash, Quadra de Tênis, Playgrounds';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);

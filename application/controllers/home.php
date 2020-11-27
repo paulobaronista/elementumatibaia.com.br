@@ -8,9 +8,9 @@ class Home extends CI_Controller{
     }
     public function index(){
         $data['title'] = 'Elementum Residencial Atibaia';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
-        $menu['contato'] = 'active';
+        $data['description'] = 'Loteamento fechado com terrenos a partir de 360M²';
+        $data['keywords'] = 'Complexo Aquático, Fitness, Beach Tênis, Clube Social e Esportivo, Pet Place e Pet Wash, Quadra de Tênis, Playgrounds';
+        $menu['home'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
         $this->load->view('html_header', $data);
         $this->load->view('header');
@@ -22,8 +22,8 @@ class Home extends CI_Controller{
     }
     public function politicadeprivacidade(){
         $data['title'] = 'Elementum Residencial Atibaia';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['description'] = 'Loteamento fechado com terrenos a partir de 360M²';
+        $data['keywords'] = 'Complexo Aquático, Fitness, Beach Tênis, Clube Social e Esportivo, Pet Place e Pet Wash, Quadra de Tênis, Playgrounds';
         $menu['politicadeprivacidade'] = 'active';
 		$conteudo['pagina_view'] = 'politicadeprivacidade_view';
 		$this->load->view('html_header', $data);
@@ -35,8 +35,8 @@ class Home extends CI_Controller{
     }
     public function politicadecookies(){
         $data['title'] = 'Elementum Residencial Atibaia';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['description'] = 'Loteamento fechado com terrenos a partir de 360M²';
+        $data['keywords'] = 'Complexo Aquático, Fitness, Beach Tênis, Clube Social e Esportivo, Pet Place e Pet Wash, Quadra de Tênis, Playgrounds';
         $menu['politicadecookies'] = 'active';
 		$conteudo['pagina_view'] = 'politicadecookies_view';
 		$this->load->view('html_header', $data);

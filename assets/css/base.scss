@@ -201,6 +201,7 @@ p {
     z-index: 999;
     bottom: 90px;
 }
+
 .float-box a {
     width: 47px;
     overflow: hidden;
@@ -220,6 +221,7 @@ p {
     cursor: pointer;
     text-decoration: none;
 }
+
 .float-box a:hover {
     width: 220px;
     color: rgba(255, 255, 255, 1);
@@ -250,6 +252,30 @@ p {
     background-color: #f26722;
 }
 
+.modalMapa {
+    .close {
+        color: #fff;
+        text-shadow: none;
+        opacity: 1;
+        position: absolute;
+        top: -26px;
+        right: -19px;
+        font-size: 15px;
+        line-height: 15px;
+        border-radius: 100px;
+        border: solid 1px #fff;
+        padding: 2px 5px 2px;
+    }
+
+    .modal-dialog {
+        margin: 50px auto;
+    }
+
+    .modal-body {
+        padding: 0px;
+    }
+}
+
 /* Extra Small */
 @media(max-width:767px) {
     .padding-off-mobile {
@@ -261,6 +287,15 @@ p {
         div {
             margin: 30% auto 0;
             width: 95%;
+        }
+    }
+    .modalMapa {
+        .close {
+            top: -26px;
+            right: 0px;
+        }
+        .modal-dialog {
+            margin: 30% auto 0;
         }
     }
 }

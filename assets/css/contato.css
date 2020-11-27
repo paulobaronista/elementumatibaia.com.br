@@ -28,6 +28,11 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.contato .checkbox-inline a {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: underline;
+}
+
 .contato .box-check {
   padding-top: 8px;
   padding-bottom: 8px;

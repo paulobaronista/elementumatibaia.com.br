@@ -121,6 +121,12 @@
                                 <input type="checkbox" name="checkboxTelefone" class="checkboxTelefone" value="x"> Telefone
                             </label>
                         </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 padding-off form-group box-check">
+                            <label class="checkbox-inline" style="padding-left: 15px;">Li e concordo com a <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de privacidade</a></label>
+                            <label class="checkbox-inline">
+                                <input type="checkbox" name="checkboxPolitica" class="checkboxPolitica" required="required" value="Sim"><span style="color: transparent;">.</span>
+                            </label>
+                        </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 padding-off form-group">
                             <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" required="required" placeholder="Mensagem*:"></textarea>
                         </div>
@@ -167,8 +173,8 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
                 <ul class="nav navbar-nav">
+                    <li><a href="<?php echo base_url(); ?>home">Home</a></li>
                     <li><a href="<?php echo base_url(); ?>politicadeprivacidade">Política de privacidade</a></li>
-                    <li><a href="<?php echo base_url(); ?>politicadecookies">Política de cookies</a></li>
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 margin-top-15">
@@ -179,6 +185,19 @@
         </div>
     </div>
 </footer>
+
+<div id="cookies" class="cookies">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
+        <div class="col-xs-12 col-sm-9 col-md-9">
+            <p>
+                Usamos cookies para garantir que obtenha sempre a melhor experiência ao visitar o nosso website, para medir a utilização e o desempenho, bem como apresentar anúncios. Ao clicar em “Aceito”, concorda com as nossas configurações padrão.
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+            <a href="#" class="btn_cookie btn center-block">Aceito</a>
+        </div>
+    </div>
+</div>
 
 <?php
 if (isset($email_enviado))

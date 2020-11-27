@@ -323,6 +323,28 @@ p {
   background-color: #f26722;
 }
 
+.modalMapa .close {
+  color: #fff;
+  text-shadow: none;
+  opacity: 1;
+  position: absolute;
+  top: -26px;
+  right: -19px;
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 100px;
+  border: solid 1px #fff;
+  padding: 2px 5px 2px;
+}
+
+.modalMapa .modal-dialog {
+  margin: 50px auto;
+}
+
+.modalMapa .modal-body {
+  padding: 0px;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .padding-off-mobile {
@@ -332,6 +354,13 @@ p {
   .aviso div {
     margin: 30% auto 0;
     width: 95%;
+  }
+  .modalMapa .close {
+    top: -26px;
+    right: 0px;
+  }
+  .modalMapa .modal-dialog {
+    margin: 30% auto 0;
   }
 }
 
@@ -521,6 +550,11 @@ p {
   font-size: 14px;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.contato .checkbox-inline a {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: underline;
 }
 
 .contato .box-check {
@@ -855,8 +889,8 @@ footer .navbar-nav li:last-child a {
   font-style: normal;
   color: #000;
   font-size: 15px;
-  line-height: 25px;
-  margin-bottom: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
 }
 
 .politica .politica-info p a {

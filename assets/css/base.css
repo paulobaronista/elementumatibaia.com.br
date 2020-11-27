@@ -260,6 +260,28 @@ p {
   background-color: #f26722;
 }
 
+.modalMapa .close {
+  color: #fff;
+  text-shadow: none;
+  opacity: 1;
+  position: absolute;
+  top: -26px;
+  right: -19px;
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 100px;
+  border: solid 1px #fff;
+  padding: 2px 5px 2px;
+}
+
+.modalMapa .modal-dialog {
+  margin: 50px auto;
+}
+
+.modalMapa .modal-body {
+  padding: 0px;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .padding-off-mobile {
@@ -269,6 +291,13 @@ p {
   .aviso div {
     margin: 30% auto 0;
     width: 95%;
+  }
+  .modalMapa .close {
+    top: -26px;
+    right: 0px;
+  }
+  .modalMapa .modal-dialog {
+    margin: 30% auto 0;
   }
 }
 /*# sourceMappingURL=base.css.map */
