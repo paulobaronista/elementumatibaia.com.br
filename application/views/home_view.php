@@ -146,7 +146,7 @@
                 <div class="col-xs-12 col-sm-4 col-md-4">
                     <h6>Visite Showroom:</h6>
                     <p>Estrada Municipal<br>
-                        Luciano Rocha Peçanha, 2805<br>
+                        Luciano Rocha Peçanha, 2795<br>
                         Bairro Ressaca</p>
                 </div>
             </div>
