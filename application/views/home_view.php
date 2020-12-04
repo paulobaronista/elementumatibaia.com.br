@@ -37,7 +37,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 dt">
                     <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
                         <h6>
-                            Lazer exclusivo e diferenciado.
+                            Lazer exclusivo e diferenciado
                         </h6>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
@@ -56,17 +56,18 @@
                             • Praça da Terra<br>
                             • Praça do Fogo<br>
                             • Praça do Ar<br>
-                            • Praça Água e Redário<br>
+                            • Praça Água<br>
                             • Praça do Piquenique<br>
-                            • Praça do Encontro
+                            • Praça do Encontro<br>
+                            • Coworking
                         </p>
                     </div>
                 </div>
+                <div class="col-xs-12 visible-xs margin-top-20"></div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                     <div class="col-xs-12 col-sm-12 col-md-12 text-center padding-off">
                         <h6>
-                            tecnologia para sua<br>
-                            absoluta segurança.
+                            tecnologia e segurança
                         </h6>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
@@ -80,6 +81,16 @@
                         </span>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="novoTexto">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <p>Todos isso e muito mais!</p>
             </div>
         </div>
     </div>
@@ -158,13 +169,19 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-                <div class="col-xs-6 col-sm-6 col-md-6">
+                <div class="col-xs-12 col-sm-4 col-md-4 l" style="border-left: 0px solid">
+                    <figure>
+                        <figcaption>Informações:</figcaption>
+                        <span class="dt-tel"><span>11</span> 4412.2692</span>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 l">
                     <figure>
                         <figcaption>futuro planejamento e intermediação:</figcaption>
                         <img class="img-responsive" src="<?= base_url(); ?>assets/images/coelhodafonseca.png" alt="Coelho da Fonseca">
                     </figure>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6">
+                <div class="col-xs-12 col-sm-4 col-md-4 l" style="border-bottom: 0px solid">
                     <figure>
                         <figcaption>FUTURA REALIZAÇÃO:</figcaption>
                         <img class="img-responsive" src="<?= base_url(); ?>assets/images/vicorp.png" alt="Vicorp">

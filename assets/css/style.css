@@ -364,12 +364,45 @@ p {
   }
 }
 
+.novoTexto p {
+  font-family: 'Proxima Nova Rg';
+  font-weight: normal;
+  font-style: normal;
+  color: #f26722;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.dt-tel {
+  font-family: 'Dax';
+  font-weight: 500;
+  font-style: normal;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  line-height: 30px;
+  color: #f26722;
+}
+
+.dt-tel span {
+  font-size: 20px;
+  line-height: 20px;
+}
+
 /* Extra Small */
+@media (max-width: 767px) {
+  .dt-tel {
+    margin-top: 0px;
+  }
+}
+
 /* Small */
 /* Medium */
 /* Large */
 .info {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 .info h6 {
@@ -436,7 +469,7 @@ p {
     height: 2px;
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: -15px;
     top: auto;
     background-color: #f26722;
     content: '';
@@ -698,8 +731,8 @@ footer p {
   font-weight: 300;
   font-style: normal;
   color: #000000;
-  font-size: 13px;
-  line-height: 13px;
+  font-size: 12px;
+  line-height: 12px;
 }
 
 footer p {
@@ -711,6 +744,11 @@ footer p {
 footer figcaption {
   margin-bottom: 20px;
   text-transform: uppercase;
+  font-style: italic;
+}
+
+footer .l {
+  border-left: solid 2px #000;
 }
 
 footer .navbar-nav {
@@ -836,12 +874,19 @@ footer .navbar-nav li:last-child a {
     font-size: 11px;
     line-height: 11px;
     margin-bottom: 10px;
+    text-align: center;
   }
   footer p {
     padding-left: 0px;
     padding-right: 0px;
     font-size: 12px;
     line-height: 12px;
+  }
+  footer .l {
+    border-left: solid 0px;
+    border-bottom: solid 2px #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   footer .navbar-nav li > a {
     border-right: 0px solid transparent;

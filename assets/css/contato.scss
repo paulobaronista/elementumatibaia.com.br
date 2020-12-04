@@ -170,8 +170,8 @@ footer {
         font-weight: 300;
         font-style: normal;
         color: #000000;
-        font-size: 13px;
-        line-height: 13px;
+        font-size: 12px;
+        line-height: 12px;
     }
 
     p {
@@ -183,6 +183,11 @@ footer {
     figcaption {
         margin-bottom: 20px;
         text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .l {
+        border-left: solid 2px #000;
     }
 
     .navbar-nav {
@@ -326,6 +331,7 @@ footer {
             font-size: 11px;
             line-height: 11px;
             margin-bottom: 10px;
+            text-align: center;
         }
 
         p {
@@ -333,6 +339,13 @@ footer {
             padding-right: 0px;
             font-size: 12px;
             line-height: 12px;
+        }
+
+        .l {
+            border-left: solid 0px;
+            border-bottom: solid 2px #000;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
 
         .navbar-nav {

@@ -96,13 +96,19 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-                <div class="col-xs-6 col-sm-6 col-md-6">
+                <div class="col-xs-12 col-sm-4 col-md-4 l" style="border-left: 0px solid">
+                    <figure>
+                        <figcaption>Informações:</figcaption>
+                        <span class="dt-tel"><span>11</span> 4412.2692</span>
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 l">
                     <figure>
                         <figcaption>futuro planejamento e intermediação:</figcaption>
                         <img class="img-responsive" src="<?= base_url(); ?>assets/images/coelhodafonseca.png" alt="Coelho da Fonseca">
                     </figure>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6">
+                <div class="col-xs-12 col-sm-4 col-md-4 l" style="border-bottom: 0px solid">
                     <figure>
                         <figcaption>FUTURA REALIZAÇÃO:</figcaption>
                         <img class="img-responsive" src="<?= base_url(); ?>assets/images/vicorp.png" alt="Vicorp">
@@ -111,7 +117,6 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="<?php echo base_url(); ?>home">Home</a></li>
                     <li><a href="<?php echo base_url(); ?>politicadeprivacidade">Política de privacidade</a></li>
                 </ul>
             </div>
