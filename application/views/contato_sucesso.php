@@ -90,7 +90,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                <p>Todos isso e muito mais!</p>
+                <p>Tudo isso e muito mais. <a href="#" data-toggle="modal" data-target="#modalVideo">Clique e assista nosso vídeo.</a></p>
             </div>
         </div>
     </div>
@@ -195,7 +195,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 margin-top-15">
                 <p>
-                    IMAGENS MERAMENTE ILUSTRATIVA, SUJEITO À ALTERAÇÃO. O EMPREENDIMENTO SOMENTE SERÁ COMERCIALIZADO APÓS O REGISTRO DE INCORPORAÇÃO.
+                    IMAGENS MERAMENTE ILUSTRATIVA, SUJEITO À ALTERAÇÃO. O EMPREENDIMENTO SOMENTE SERÁ COMERCIALIZADO APÓS O REGISTRO DO LOTEAMENTO.
                 </p>
             </div>
         </div>
@@ -227,3 +227,25 @@ if (isset($email_enviado))
             Já entraremos em contato para um <strong>atendimento exclusivo!</strong></p>
     </div>
 </div>
+
+<!-- Global site tag (gtag.js) - Google Ads: 461066954 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-461066954"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-461066954');
+</script>
+
+
+
+<!-- Event snippet for Lead - Página Obrigado conversion page -->
+<script>
+    gtag('event', 'conversion', {
+        'send_to': 'AW-461066954/yiDfCKbYgO0BEMql7dsB'
+    });
+</script>

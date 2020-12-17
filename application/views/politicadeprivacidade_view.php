@@ -122,7 +122,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 margin-top-15">
                 <p>
-                    IMAGENS MERAMENTE ILUSTRATIVA, SUJEITO À ALTERAÇÃO. O EMPREENDIMENTO SOMENTE SERÁ COMERCIALIZADO APÓS O REGISTRO DE INCORPORAÇÃO.
+                    IMAGENS MERAMENTE ILUSTRATIVA, SUJEITO À ALTERAÇÃO. O EMPREENDIMENTO SOMENTE SERÁ COMERCIALIZADO APÓS O REGISTRO DO LOTEAMENTO.
                 </p>
             </div>
         </div>

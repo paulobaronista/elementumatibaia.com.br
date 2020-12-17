@@ -252,7 +252,8 @@ p {
     background-color: #f26722;
 }
 
-.modalMapa {
+.modalMapa,
+.modalVideo {
     .close {
         color: #fff;
         text-shadow: none;
@@ -276,6 +277,16 @@ p {
     }
 }
 
+.modalVideo {
+    background-color: rgba(0,0,0,0.7);
+    .modal-content {
+        background-color: transparent;
+        border: 0px solid transparent;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+}
+
 /* Extra Small */
 @media(max-width:767px) {
     .padding-off-mobile {
@@ -289,11 +300,14 @@ p {
             width: 95%;
         }
     }
-    .modalMapa {
+
+    .modalMapa,
+    .modalVideo {
         .close {
             top: -26px;
             right: 0px;
         }
+
         .modal-dialog {
             margin: 30% auto 0;
         }

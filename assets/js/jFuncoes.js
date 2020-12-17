@@ -1,4 +1,10 @@
 $(document).ready(function () {
+	$('#modalVideo').on('hidden.bs.modal', function () {
+		$('video').trigger('pause');
+	});
+});
+
+$(document).ready(function () {
 	$('#cookies').show();
 	$('body').css('overflow', 'hidden');
 	if (window.localStorage.getItem('accept_cookies')) {
@@ -31,7 +37,7 @@ $(document).on('ready', function () {
 
 $(document).ready(function () {
 	var colors = ["#f26722", "#abe0da", "#009db4", "#00582c", "#9a6326"],
-	i = 0;
+		i = 0;
 	setInterval(function () {
 		$("meta[name='theme-color']").attr('content', colors[i]);
 		i++;

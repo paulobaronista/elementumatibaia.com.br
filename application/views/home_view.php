@@ -90,7 +90,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                <p>Todos isso e muito mais!</p>
+                <p>Tudo isso e muito mais. <a href="#" data-toggle="modal" data-target="#modalVideo">Clique e assista nosso vídeo.</a></p>
             </div>
         </div>
     </div>
@@ -195,7 +195,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 margin-top-15">
                 <p>
-                    IMAGENS MERAMENTE ILUSTRATIVA, SUJEITO À ALTERAÇÃO. O EMPREENDIMENTO SOMENTE SERÁ COMERCIALIZADO APÓS O REGISTRO DE INCORPORAÇÃO.
+                    IMAGENS MERAMENTE ILUSTRATIVA, SUJEITO À ALTERAÇÃO. O EMPREENDIMENTO SOMENTE SERÁ COMERCIALIZADO APÓS O REGISTRO DO LOTEAMENTO.
                 </p>
             </div>
         </div>

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Elementum Residencial Atibaia" />
     <meta name="og:title" content="Elementum Residencial Atibaia" />
-    <meta name="og:description" content="Loteamento fechado com terrenos a partir de 360M²" />
+    <meta name="og:description" content="elementum Atibaia; loteamento Atibaia; lotes interior de sp; coworking Atibaia; lotes fernao dias" />
     <meta name="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
     <link rel="icon" href="<?= base_url(); ?>assets/images/favicon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?= base_url(); ?>assets/images/apple-touch-icon-144-precomposed.png">
@@ -20,7 +20,7 @@
     <!-- property (faz funcionar no linkedin) -->
     <meta property="og:title" content="Elementum Residencial Atibaia" />
     <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
-    <meta property="Loteamento fechado com terrenos a partir de 360M²" />
+    <meta property="elementum Atibaia; loteamento Atibaia; lotes interior de sp; coworking Atibaia; lotes fernao dias" />
     <meta property="og:url" content="https://www.elementumatibaia.com.br" />
     <!-- property (faz funcionar no linkedin) -->
     <?php
@@ -33,10 +33,23 @@
     );
     echo meta($meta);
     echo link_tag('assets/css/bootstrap.min.css');
-    echo link_tag('assets/css/style.css?v=1.2.4');
+    echo link_tag('assets/css/style.css?v=1.2.5');
     echo link_tag('assets/css/slick.css');
     echo link_tag('assets/css/slick-theme.css');
     ?>
+
+    <!-- Global site tag (gtag.js) - Google Ads: 461066954 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-461066954"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-461066954');
+    </script>
 </head>
 
 <body>

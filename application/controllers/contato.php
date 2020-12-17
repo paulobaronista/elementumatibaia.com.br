@@ -12,7 +12,7 @@ class Contato extends CI_Controller
     {
         $data['title'] = 'Elementum Residencial Atibaia';
         $data['description'] = 'Loteamento fechado com terrenos a partir de 360M²';
-        $data['keywords'] = 'Complexo Aquático, Fitness, Beach Tênis, Clube Social e Esportivo, Pet Place e Pet Wash, Quadra de Tênis, Playgrounds';
+        $data['keywords'] = 'elementum Atibaia; loteamento Atibaia; lotes interior de sp; coworking Atibaia; lotes fernao dias';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -35,7 +35,7 @@ class Contato extends CI_Controller
 
             $this->email->from("contato@elementumatibaia.com.br", "Elementum Residencial Atibaia");
             $this->email->to('contato@elementumatibaia.com.br');
-            $this->email->cc('mv_cp_94f_300_1828_3079_14166_68525_3535_3535_faleconosco_hotsiteempreendimento@email.anapro.com.br, renata@spicycomm.com.br, paulobaronista@gmail.com');
+            $this->email->cc('mv_cp_94f_300_1828_3079_14166_68525_3535_3535_faleconosco_hotsiteempreendimento@email.anapro.com.br, renata@spicycomm.com.br, leadselememtum@gmail.com, paulobaronista@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -69,7 +69,7 @@ class Contato extends CI_Controller
     {
         $data['title'] = 'Elementum Residencial Atibaia';
         $data['description'] = 'Loteamento fechado com terrenos a partir de 360M²';
-        $data['keywords'] = 'Complexo Aquático, Fitness, Beach Tênis, Clube Social e Esportivo, Pet Place e Pet Wash, Quadra de Tênis, Playgrounds';
+        $data['keywords'] = 'elementum Atibaia; loteamento Atibaia; lotes interior de sp; coworking Atibaia; lotes fernao dias';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -84,7 +84,7 @@ class Contato extends CI_Controller
     {
         $data['title'] = 'Elementum Residencial Atibaia';
         $data['description'] = 'Loteamento fechado com terrenos a partir de 360M²';
-        $data['keywords'] = 'Complexo Aquático, Fitness, Beach Tênis, Clube Social e Esportivo, Pet Place e Pet Wash, Quadra de Tênis, Playgrounds';
+        $data['keywords'] = 'elementum Atibaia; loteamento Atibaia; lotes interior de sp; coworking Atibaia; lotes fernao dias';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);

@@ -8,6 +8,11 @@
   margin-bottom: 25px;
 }
 
+.novoTexto p a {
+  color: #f26722;
+  text-decoration: underline;
+}
+
 .dt-tel {
   font-family: 'Dax';
   font-weight: 500;
