@@ -158,7 +158,7 @@
                     <h6>Visite Showroom:</h6>
                     <p>Estrada Municipal<br>
                         Luciano Rocha Peçanha, 2795<br>
-                        Bairro Ressaca</p>
+                        Bairro Cachoeira</p>
                 </div>
             </div>
         </div>
