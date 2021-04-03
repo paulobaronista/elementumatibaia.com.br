@@ -1,0 +1,96 @@
+.ficha-tecnica {
+    background-color: #d0e0b8;
+
+    .i-ficha-tecnica {
+        padding-top: 13%;
+    }
+
+    .thumb-ficha-tecnica {}
+}
+
+.implantacao {
+    background-color: #eee9d8;
+
+    .i-implantacao {
+        padding-top: 14%;
+    }
+
+}
+
+.endereco {
+    .box {
+        background-color: #ebebeb;
+        margin-top: 30px;
+    }
+    p {
+        font-family: 'Dax';
+        font-weight: 300;
+        font-style: normal;
+        color: #414042;
+        font-size: 20px;
+        line-height: 28px;
+        padding-top: 23px;
+    }
+    .clique-mapa {
+        margin-top: 25px;
+        display: block;
+    }
+    .waze {
+        margin-top: 15px;
+        display: block;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .ficha-tecnica {
+
+        .i-ficha-tecnica {
+            width: 70%;
+            padding-top: 7%;
+        }
+
+        .thumb-ficha-tecnica {
+
+        }
+    }
+
+    .implantacao {
+
+        .i-implantacao {
+            width: 80%;
+            padding-top: 9%;
+        }
+
+        .thumb-implantacao {
+        }
+    }
+    .endereco {
+        .en {
+             max-width: 70%;
+        }
+        .box {
+            margin-top: 20px;
+        }
+        p {
+            font-size: 17px;
+            line-height: 25px;
+            padding-top: 15px;
+        }
+        .clique-mapa {
+            margin-top: 15px;
+        }
+        .waze {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

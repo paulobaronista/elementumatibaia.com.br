@@ -1,0 +1,124 @@
+.contato {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    .txt1 {
+        font-family: 'Proxima Nova Rg';
+        font-weight: bold;
+        font-style: normal;
+        color: #bd4520;
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .txt2 {
+        font-family: 'Proxima Nova Rg';
+        font-weight: normal;
+        font-style: normal;
+        color: #f16721;
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .elementum-contato {
+        margin-top: 30px;
+    }
+    .whatsApp {
+        display: block;
+        margin-top: 20px;
+    }
+    .redes {
+        margin-top: 20px;
+        div {
+            display: block;
+            float: right;
+            a {
+                width: 40px;
+                height: 40px;
+                display: inline-block;
+                padding: 0 5px;
+            }
+        }
+    }
+    .form-control {
+        font-family: 'Dax';
+        font-weight: 300;
+        font-style: normal;
+        height: 38px;
+        font-size: 16px;
+        color: #f16721;
+        border: 1px solid #f16721;
+        border-radius: 0px;
+        box-shadow: none;
+
+        &::-webkit-input-placeholder {
+            color: #f16721;
+        }
+
+        &:-ms-input-placeholder {
+            color: #f16721;
+        }
+
+        &::placeholder {
+            color: #f16721;
+        }
+    }
+
+    .checkbox-inline {
+        font-family: 'Dax';
+        font-weight: 300;
+        font-style: normal;
+        font-size: 16px;
+        color: #f16721;
+
+        a {
+            color: #f16721;
+            text-decoration: underline;
+        }
+    }
+
+    textarea {
+        height: 130px !important;
+    }
+
+    .btn_enviar {
+        font-family: 'Proxima Nova Rg';
+        font-weight: 500;
+        font-style: normal;
+        background-color: #088c43;
+        padding: 6px 15px;
+        font-size: 16px;
+        color: #FFF;
+        border: 0px solid transparent;
+        border-radius: 0px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        float: right;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .contato { 
+        padding-top: 20px;
+        .elementum-contato {
+            margin-top: 10px;
+            max-width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .whatsApp {
+            margin-top: 10px;
+            max-width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

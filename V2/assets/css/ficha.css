@@ -1,0 +1,74 @@
+.ficha-tecnica {
+  background-color: #d0e0b8;
+}
+
+.ficha-tecnica .i-ficha-tecnica {
+  padding-top: 13%;
+}
+
+.implantacao {
+  background-color: #eee9d8;
+}
+
+.implantacao .i-implantacao {
+  padding-top: 14%;
+}
+
+.endereco .box {
+  background-color: #ebebeb;
+  margin-top: 30px;
+}
+
+.endereco p {
+  font-family: 'Dax';
+  font-weight: 300;
+  font-style: normal;
+  color: #414042;
+  font-size: 20px;
+  line-height: 28px;
+  padding-top: 23px;
+}
+
+.endereco .clique-mapa {
+  margin-top: 25px;
+  display: block;
+}
+
+.endereco .waze {
+  margin-top: 15px;
+  display: block;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .ficha-tecnica .i-ficha-tecnica {
+    width: 70%;
+    padding-top: 7%;
+  }
+  .implantacao .i-implantacao {
+    width: 80%;
+    padding-top: 9%;
+  }
+  .endereco .en {
+    max-width: 70%;
+  }
+  .endereco .box {
+    margin-top: 20px;
+  }
+  .endereco p {
+    font-size: 17px;
+    line-height: 25px;
+    padding-top: 15px;
+  }
+  .endereco .clique-mapa {
+    margin-top: 15px;
+  }
+  .endereco .waze {
+    margin-bottom: 10px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=ficha.css.map */

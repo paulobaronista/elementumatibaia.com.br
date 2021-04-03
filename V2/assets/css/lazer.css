@@ -1,0 +1,158 @@
+.lazer {
+  background-color: #eee9d8;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.lazer p {
+  font-family: 'Proxima Nova Rg';
+  font-weight: normal;
+  font-style: normal;
+  color: #49832d;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.lazer .thumb_lazer {
+  margin-bottom: 15px;
+}
+
+.depoimento {
+  background-color: #68952d;
+}
+
+.depoimento h6 {
+  font-family: 'Proxima Nova Rg';
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.depoimento .box {
+  background: url(../images/bg-depoimento.jpg) no-repeat;
+  background-position: center center;
+  background-size: contain;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.depoimento .box p {
+  font-family: 'Dax';
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+
+.depoimento .box p span {
+  float: right;
+  font-family: 'Dax';
+  font-weight: 500;
+  font-style: normal;
+  padding-top: 10px;
+  margin-right: 10%;
+  text-align: right;
+}
+
+.depoimento .box p span small {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.seguranca {
+  background-color: #00582c;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.seguranca .txt1 {
+  font-family: 'Proxima Nova Rg';
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.seguranca .txt2 {
+  font-family: 'Dax';
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  font-size: 17px;
+  line-height: 23px;
+  margin-bottom: 15px;
+}
+
+.seguranca .txt2 span {
+  font-family: 'Dax';
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .lazer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .lazer p {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .depoimento h6 {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .depoimento .box {
+    background: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .depoimento .box p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .depoimento .box p span {
+    padding-top: 10px;
+    margin-right: 0%;
+  }
+  .seguranca {
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  .seguranca .txt1 {
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .seguranca .txt2 {
+    font-size: 15px;
+    line-height: 19px;
+    margin-bottom: 10px;
+  }
+  .seguranca img {
+    max-width: 70%;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=lazer.css.map */

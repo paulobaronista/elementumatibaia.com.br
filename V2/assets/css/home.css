@@ -1,0 +1,44 @@
+.galeria {
+  margin-top: 47px;
+}
+
+.video {
+  background-color: #f1f1f1;
+  border-bottom: solid 10px #de5a19;
+  margin-top: -5px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.video p {
+  font-family: 'Proxima Nova Rg';
+  font-weight: normal;
+  font-style: normal;
+  color: #49832d;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .galeria {
+    margin-top: 50px;
+  }
+  .video {
+    border-bottom: solid 10px #de5a19;
+    margin-top: -5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .video p {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=home.css.map */

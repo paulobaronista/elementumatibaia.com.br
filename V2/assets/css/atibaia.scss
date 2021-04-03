@@ -1,0 +1,94 @@
+.atibaia {
+    background-color: #eee9d8;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    .txt1 {
+        font-family: 'Proxima Nova Rg';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 25px;
+        line-height: 30px;
+        color: #00582c;
+        text-transform: uppercase;
+
+        strong {
+            font-size: 30px;
+            line-height: 35px;
+        }
+    }
+
+    .txt2 {
+        font-family: 'Dax';
+        font-weight: 300;
+        font-style: normal;
+        color: #414042;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .local {
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    .info-local {
+        p {
+            font-family: 'Dax';
+            font-weight: 300;
+            font-style: normal;
+            color: #414042;
+            margin-bottom: 10px;
+            font-size: 18px;
+            line-height: 20px;
+
+            strong {
+                color: #00582c;
+                font-weight: 500;
+                font-style: normal;
+            }
+        }
+    }
+}
+
+.faixa-atibaia {
+    background-color: #de5a19;
+    -webkit-box-shadow: 0px -3px 5px 0px rgba(50, 50, 50, 0.41);
+    -moz-box-shadow: 0px -3px 5px 0px rgba(50, 50, 50, 0.41);
+    box-shadow: 0px -3px 5px 0px rgba(50, 50, 50, 0.41);
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .atibaia {
+        padding-top: 30px;
+        padding-bottom: 10px;
+
+        .txt1 {
+            margin-bottom: 10px;
+        }
+
+        .txt2 {
+            font-family: 'Dax';
+            font-weight: 300;
+            font-style: normal;
+            color: #414042;
+            font-size: 16px;
+            line-height: 23px;
+        }
+
+        .local {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

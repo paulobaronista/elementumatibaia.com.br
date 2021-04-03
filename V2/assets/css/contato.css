@@ -1,0 +1,133 @@
+.contato {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.contato .txt1 {
+  font-family: 'Proxima Nova Rg';
+  font-weight: bold;
+  font-style: normal;
+  color: #bd4520;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.contato .txt2 {
+  font-family: 'Proxima Nova Rg';
+  font-weight: normal;
+  font-style: normal;
+  color: #f16721;
+  font-size: 25px;
+  line-height: 28px;
+}
+
+.contato .elementum-contato {
+  margin-top: 30px;
+}
+
+.contato .whatsApp {
+  display: block;
+  margin-top: 20px;
+}
+
+.contato .redes {
+  margin-top: 20px;
+}
+
+.contato .redes div {
+  display: block;
+  float: right;
+}
+
+.contato .redes div a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.contato .form-control {
+  font-family: 'Dax';
+  font-weight: 300;
+  font-style: normal;
+  height: 38px;
+  font-size: 16px;
+  color: #f16721;
+  border: 1px solid #f16721;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contato .form-control::-webkit-input-placeholder {
+  color: #f16721;
+}
+
+.contato .form-control:-ms-input-placeholder {
+  color: #f16721;
+}
+
+.contato .form-control::-ms-input-placeholder {
+  color: #f16721;
+}
+
+.contato .form-control::placeholder {
+  color: #f16721;
+}
+
+.contato .checkbox-inline {
+  font-family: 'Dax';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  color: #f16721;
+}
+
+.contato .checkbox-inline a {
+  color: #f16721;
+  text-decoration: underline;
+}
+
+.contato textarea {
+  height: 130px !important;
+}
+
+.contato .btn_enviar {
+  font-family: 'Proxima Nova Rg';
+  font-weight: 500;
+  font-style: normal;
+  background-color: #088c43;
+  padding: 6px 15px;
+  font-size: 16px;
+  color: #FFF;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  float: right;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .contato {
+    padding-top: 20px;
+  }
+  .contato .elementum-contato {
+    margin-top: 10px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contato .whatsApp {
+    margin-top: 10px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=contato.css.map */
