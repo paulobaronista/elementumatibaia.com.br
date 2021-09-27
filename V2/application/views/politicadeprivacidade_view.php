@@ -10,7 +10,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="<?php echo base_url(); ?>#home"><img class="img-responsive" src="<?= base_url(); ?>assets/images/logo-elementum.png" alt="Elementum Atibaia"></a>
-                    <img class="lancamento img-responsive" src="<?= base_url(); ?>assets/images/bt-lancamento.png" alt="Lançamento">
+                    <img class="lancamento img-responsive" src="<?= base_url(); ?>assets/images/bt-lancamento2.png?1551369906082" alt="Lançamento">
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">

@@ -10,7 +10,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand scrollink" href="#home"><img class="img-responsive" src="<?= base_url(); ?>assets/images/logo-elementum.png" alt="Elementum Atibaia"></a>
-                    <img class="lancamento img-responsive" src="<?= base_url(); ?>assets/images/bt-lancamento.png" alt="Lançamento">
+                    <img class="lancamento img-responsive" src="<?= base_url(); ?>assets/images/bt-lancamento2.png?1551369906082" alt="Lançamento">
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -60,11 +60,9 @@
         </div>
     </div>
     <div class="box-video">
-        <video width="100%" height="auto" controls>
-            <source src="<?= base_url(); ?>assets/video/video.mp4" type="video/mp4">
-            <source src="<?= base_url(); ?>assets/video/video.ogg" type="video/ogg">
-            Your browser does not support the video tag.
-        </video>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1dD-zPW-4Vw"></iframe>
+        </div>
     </div>
 </div>
 <div class="atibaia">
