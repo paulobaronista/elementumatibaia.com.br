@@ -35,7 +35,7 @@ class Contato extends CI_Controller
 
             $this->email->from("contato@elementumatibaia.com.br", "Elementum Residencial Atibaia");
             $this->email->to('contato@elementumatibaia.com.br');
-            $this->email->cc('mv_cp_94f_300_1828_3079_14166_68525_3535_3535_faleconosco_hotsiteempreendimento@email.anapro.com.br, renata@spicycomm.com.br, leadselememtum@gmail.com, paulobaronista@gmail.com');
+            $this->email->cc('mv_cp_94f_300_1828_3079_14166_68525_3535_3535_faleconosco_hotsiteempreendimento@email.anapro.com.br, renata@spicycomm.com.br, leadselememtum@gmail.com, front.baronista@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
