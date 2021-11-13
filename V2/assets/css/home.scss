@@ -1,12 +1,29 @@
 .galeria {
+    position: relative;
     margin-top: 47px;
+
+    .btn-obras-avancadas {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        position: absolute;
+        left: 5%;
+        z-index: 99;
+        bottom: 3.5%;
+
+        a {
+            width: 230px;
+        }
+    }
 }
+
 .video {
     background-color: #f1f1f1;
     border-bottom: solid 10px #de5a19;
     margin-top: -5px;
     padding-top: 40px;
     padding-bottom: 40px;
+
     p {
         font-family: 'Proxima Nova Rg';
         font-weight: normal;
@@ -22,12 +39,23 @@
 @media(max-width:767px) {
     .galeria {
         margin-top: 50px;
+
+        .btn-obras-avancadas {
+            left: 3%;
+            bottom: 3.8%;
+    
+            a {
+                width: 130px;
+            }
+        }
     }
+
     .video {
         border-bottom: solid 10px #de5a19;
         margin-top: -5px;
         padding-top: 30px;
         padding-bottom: 30px;
+
         p {
             font-size: 25px;
             line-height: 25px;

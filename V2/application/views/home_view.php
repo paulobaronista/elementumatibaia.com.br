@@ -47,6 +47,11 @@
             <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/slide-04-mobile.jpg?1551369906080" alt="Elementum Residencial Atibaia">
         </div>
     </section>
+    <div class="btn-obras-avancadas">
+        <a href="#" data-toggle="modal" data-target="#modalVideoObrasAvancadas">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/obras-avancadas.png" alt="Obras avançadas">
+        </a>
+    </div>
 </div>
 <div id="conceito" class="video">
     <div class="container">

@@ -348,6 +348,28 @@ p {
   padding: 0px;
 }
 
+.modalVideoObrasAvancadas .close {
+  color: #fff;
+  text-shadow: none;
+  opacity: 1;
+  position: absolute;
+  top: -26px;
+  right: -19px;
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 100px;
+  border: solid 1px #fff;
+  padding: 2px 5px 2px;
+}
+
+.modalVideoObrasAvancadas .modal-dialog {
+  margin: 50px auto;
+}
+
+.modalVideoObrasAvancadas .modal-body {
+  padding: 0px;
+}
+
 .cookies {
   position: fixed;
   width: 100%;
@@ -405,13 +427,15 @@ p {
   }
   .modalMapa .close,
   .modalFichaTecnica .close,
-  .modalImplantacao .close {
+  .modalImplantacao .close,
+  .modalVideoObrasAvancadas .close {
     top: -26px;
     right: 0px;
   }
   .modalMapa .modal-dialog,
   .modalFichaTecnica .modal-dialog,
-  .modalImplantacao .modal-dialog {
+  .modalImplantacao .modal-dialog,
+  .modalVideoObrasAvancadas .modal-dialog {
     width: auto;
     margin: 30% auto 0;
   }
@@ -561,7 +585,29 @@ p {
 
 /* Large */
 .galeria {
+  position: relative;
   margin-top: 47px;
+}
+
+.galeria .btn-obras-avancadas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  left: 5%;
+  z-index: 99;
+  bottom: 3.5%;
+}
+
+.galeria .btn-obras-avancadas a {
+  width: 230px;
 }
 
 .video {
@@ -586,6 +632,13 @@ p {
 @media (max-width: 767px) {
   .galeria {
     margin-top: 50px;
+  }
+  .galeria .btn-obras-avancadas {
+    left: 3%;
+    bottom: 3.8%;
+  }
+  .galeria .btn-obras-avancadas a {
+    width: 130px;
   }
   .video {
     border-bottom: solid 10px #de5a19;
@@ -660,6 +713,30 @@ p {
   box-shadow: 0px -3px 5px 0px rgba(50, 50, 50, 0.41);
 }
 
+.obras-avancadas {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: solid 3px #de5a19;
+  border-bottom: solid 3px #de5a19;
+}
+
+.obras-avancadas p {
+  font-family: 'Proxima Nova Rg';
+  font-weight: bold;
+  font-style: normal;
+  color: #de5a19;
+  font-size: 22px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.obras-avancadas p a {
+  color: #de5a19;
+  text-decoration: underline;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .atibaia {
@@ -680,6 +757,10 @@ p {
   .atibaia .local {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .obras-avancadas p {
+    font-size: 17px;
+    line-height: 17px;
   }
 }
 
@@ -1097,6 +1178,7 @@ footer .menu-footer {
 footer .menu-footer p {
   color: #fff;
   margin-top: 20px;
+  text-align: justify;
 }
 
 footer .menu-footer .navbar-nav li {

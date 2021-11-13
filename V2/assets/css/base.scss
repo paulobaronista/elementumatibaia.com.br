@@ -275,6 +275,30 @@ p {
     }
 }
 
+.modalVideoObrasAvancadas {
+    .close {
+        color: #fff;
+        text-shadow: none;
+        opacity: 1;
+        position: absolute;
+        top: -26px;
+        right: -19px;
+        font-size: 15px;
+        line-height: 15px;
+        border-radius: 100px;
+        border: solid 1px #fff;
+        padding: 2px 5px 2px;
+    }
+
+    .modal-dialog {
+        margin: 50px auto;
+    }
+
+    .modal-body {
+        padding: 0px;
+    }
+}
+
 .cookies {
     position: fixed;
     width: 100%;
@@ -335,7 +359,8 @@ p {
 
     .modalMapa,
     .modalFichaTecnica,
-    .modalImplantacao {
+    .modalImplantacao,
+    .modalVideoObrasAvancadas {
         .close {
             top: -26px;
             right: 0px;

@@ -47,6 +47,7 @@ footer .menu-footer {
 footer .menu-footer p {
   color: #fff;
   margin-top: 20px;
+  text-align: justify;
 }
 
 footer .menu-footer .navbar-nav li {

@@ -1,5 +1,27 @@
 .galeria {
+  position: relative;
   margin-top: 47px;
+}
+
+.galeria .btn-obras-avancadas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  left: 5%;
+  z-index: 99;
+  bottom: 3.5%;
+}
+
+.galeria .btn-obras-avancadas a {
+  width: 230px;
 }
 
 .video {
@@ -24,6 +46,13 @@
 @media (max-width: 767px) {
   .galeria {
     margin-top: 50px;
+  }
+  .galeria .btn-obras-avancadas {
+    left: 3%;
+    bottom: 3.8%;
+  }
+  .galeria .btn-obras-avancadas a {
+    width: 130px;
   }
   .video {
     border-bottom: solid 10px #de5a19;

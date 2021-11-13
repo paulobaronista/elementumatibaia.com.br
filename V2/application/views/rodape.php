@@ -52,10 +52,13 @@
                         <li><a href="<?php echo base_url(); ?>politicadeprivacidade">Política de privacidade</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
-                    <p>Empreendimento “Elementum Residencial Atibaia”. Projeto de Loteamento aprovado e registrado no Cartório de Registro de Imóveis da Comarca de Atibaia, sob o número da matrícula-mãe: 117.238, tem a NATIVE RESIDENCIAL ATIBAIA como responsável pelo seu desenvolvimento imobiliário.<br>
-                    As ilustrações, artes, mobiliários, equipamentos, peças de decoração e quaisquer outros itens são meramente ilustrativos e não serão entregues pela EMPREENDEDORA.<br>
-                    As áreas comuns, praças, jardins e outros equipamentos comunitários não serão entregues equipados e decorados, SENDO AS IMAGENS MERAMENTE SUGESTIVAS.</p>
+                <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+                    <p>
+                        Empreendimento “Elementum Residencial Atibaia”. Projeto de Loteamento aprovado e registrado no Cartório de Registro de Imóveis da Comarca de Atibaia, sob o número da matrícula-mãe: 117.238, tem a NATIVE RESIDENCIAL ATIBAIA como responsável pelo seu desenvolvimento imobiliário.
+                        As ilustrações, artes, mobiliários, equipamentos, peças de decoração e quaisquer outros itens são meramente ilustrativos e não serão entregues pela EMPREENDEDORA.
+                        As áreas comuns, praças, jardins e outros equipamentos comunitários não serão entregues equipados e decorados, SENDO AS IMAGENS MERAMENTE SUGESTIVAS.
+                        *As parcelas de 140 meses tem juros de 9% ao ano + correção monetária pelo IPCA. Consulte condições contratuais, memorial descritivo e tabela de vendas, através dos canais de contato Intermediação: Coelho da Fonseca Empreendimentos Imobiliários Ltda. <br/>Creci J-961. Secovi 1191.
+                    </p>
                 </div>
             </div>
         </div>
@@ -91,6 +94,19 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">X</button>
             <div class="modal-body">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/Vicorp_Atibaia_Aerea_Geral_HR.jpg" alt="Mapa">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modalVideoObrasAvancadas" id="modalVideoObrasAvancadas" tabindex="-1" role="dialog" aria-labelledby="modalVideoObrasAvancadas" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">X</button>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AP-ar1jj4jM"></iframe>
+                </div>
             </div>
         </div>
     </div>
