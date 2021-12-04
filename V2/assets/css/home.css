@@ -24,6 +24,24 @@
   width: 230px;
 }
 
+.galeria .btn-obras-avancadas-valor {
+  width: 290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  right: 12%;
+  z-index: 99;
+  top: 0%;
+}
+
 .video {
   background-color: #f1f1f1;
   border-bottom: solid 10px #de5a19;
@@ -53,6 +71,11 @@
   }
   .galeria .btn-obras-avancadas a {
     width: 130px;
+  }
+  .galeria .btn-obras-avancadas-valor {
+    width: 130px;
+    right: 0%;
+    top: 0%;
   }
   .video {
     border-bottom: solid 10px #de5a19;

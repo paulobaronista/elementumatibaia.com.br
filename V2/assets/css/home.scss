@@ -15,6 +15,17 @@
             width: 230px;
         }
     }
+
+    .btn-obras-avancadas-valor {
+        width: 290px;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        position: absolute;
+        right: 12%;
+        z-index: 99;
+        top: 0%;
+    }
 }
 
 .video {
@@ -43,10 +54,16 @@
         .btn-obras-avancadas {
             left: 3%;
             bottom: 3.8%;
-    
+
             a {
                 width: 130px;
             }
+        }
+
+        .btn-obras-avancadas-valor {
+            width: 130px;
+            right: 0%;
+            top: 0%;
         }
     }
 

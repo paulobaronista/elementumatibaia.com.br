@@ -57,7 +57,7 @@
                         Empreendimento “Elementum Residencial Atibaia”. Projeto de Loteamento aprovado e registrado no Cartório de Registro de Imóveis da Comarca de Atibaia, sob o número da matrícula-mãe: 117.238, tem a NATIVE RESIDENCIAL ATIBAIA como responsável pelo seu desenvolvimento imobiliário.
                         As ilustrações, artes, mobiliários, equipamentos, peças de decoração e quaisquer outros itens são meramente ilustrativos e não serão entregues pela EMPREENDEDORA.
                         As áreas comuns, praças, jardins e outros equipamentos comunitários não serão entregues equipados e decorados, SENDO AS IMAGENS MERAMENTE SUGESTIVAS.
-                        *As parcelas de 140 meses tem juros de 9% ao ano + correção monetária pelo IPCA. Consulte condições contratuais, memorial descritivo e tabela de vendas, através dos canais de contato Intermediação: Coelho da Fonseca Empreendimentos Imobiliários Ltda. <br/>Creci J-961. Secovi 1191.
+                        *As parcelas de 140 meses tem juros de 9% ao ano + correção monetária pelo IPCA. Consulte condições contratuais, memorial descritivo e tabela de vendas, através dos canais de contato. Intermediação: Coelho da Fonseca Empreendimentos Imobiliários Ltda. <br />Creci J-961. Secovi 1191.
                     </p>
                 </div>
             </div>
@@ -107,6 +107,42 @@
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AP-ar1jj4jM"></iframe>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modalPopUp" id="modalPopUp" tabindex="-1" role="dialog" aria-labelledby="modalPopUp" aria-hidden="true">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+            <button type="button" class="close btn_PopUp" data-dismiss="modal" aria-label="Close">X</button>
+            <div class="modal-body">
+                <section class="galeria-pop-up slider">
+                    <div>
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/pop-up/TELA_01.png" alt="Elementum Residencial Atibaia">
+                    </div>
+                    <div>
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/pop-up/TELA_02.png" alt="Elementum Residencial Atibaia">
+                    </div>
+                    <div>
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/pop-up/TELA_03.png" alt="Elementum Residencial Atibaia">
+                    </div>
+                    <div>
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/pop-up/TELA_04.png" alt="Elementum Residencial Atibaia">
+                    </div>
+                    <div>
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/pop-up/TELA_05.png" alt="Elementum Residencial Atibaia">
+                    </div>
+                    <div>
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/pop-up/TELA_06.png" alt="Elementum Residencial Atibaia">
+                    </div>
+                    <div>
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/pop-up/TELA_07.png" alt="Elementum Residencial Atibaia">
+                    </div>
+                    <div>
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/pop-up/TELA_08.png" alt="Elementum Residencial Atibaia">
+                    </div>
+                </section>
             </div>
         </div>
     </div>

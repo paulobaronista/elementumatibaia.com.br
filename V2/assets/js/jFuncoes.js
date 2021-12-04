@@ -46,6 +46,30 @@ $(document).on('ready', function () {
 		infinite: true,
 		speed: 800,
 	});
+
+	$(".galeria-pop-up").slick({
+		draggable: false,
+		arrows: true,
+		dots: false,
+		infinite: true,
+		speed: 300,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		pauseOnHover: false,
+	});
+});
+
+$(document).ready(function () {
+	$("#modalPopUp").modal({backdrop: 'static', keyboard: false})  
+	if (window.localStorage.getItem('accept_PopUp')) {
+		$('#modalPopUp').modal('hide')
+		return false;
+	}
+	$(".btn_PopUp").click(function () {
+		window.localStorage.setItem('accept_PopUp', true);
+		$('#modalPopUp').modal('hide')
+		return false;
+	});
 });
 
 $(document).ready(function () {

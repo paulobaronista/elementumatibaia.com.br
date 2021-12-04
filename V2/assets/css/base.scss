@@ -275,6 +275,38 @@ p {
     }
 }
 
+.modalPopUp {
+
+    .modal-content {
+        background-color: transparent;
+        border-radius: 0px;
+        box-shadow: none;
+        border: 0px solid transparent;
+    }
+
+    .close {
+        color: #fff;
+        text-shadow: none;
+        opacity: 1;
+        position: absolute;
+        top: -26px;
+        right: -19px;
+        font-size: 15px;
+        line-height: 15px;
+        border-radius: 100px;
+        border: solid 1px #fff;
+        padding: 2px 5px 2px;
+    }
+
+    .modal-dialog {
+        margin: 70px auto;
+    }
+
+    .modal-body {
+        padding: 0px;
+    }
+}
+
 .modalVideoObrasAvancadas {
     .close {
         color: #fff;
@@ -360,7 +392,7 @@ p {
     .modalMapa,
     .modalFichaTecnica,
     .modalImplantacao,
-    .modalVideoObrasAvancadas {
+    .modalVideoObrasAvancadas  {
         .close {
             top: -26px;
             right: 0px;
@@ -368,6 +400,18 @@ p {
 
         .modal-dialog {
             width: auto;
+            margin: 30% auto 0;
+        }
+    }
+
+    .modalPopUp {
+        .close {
+            top: -26px;
+            right: 0px;
+        }
+
+        .modal-dialog {
+            width: 90%;
             margin: 30% auto 0;
         }
     }

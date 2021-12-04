@@ -52,6 +52,9 @@
             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/obras-avancadas.png" alt="Obras avançadas">
         </a>
     </div>
+    <div class="btn-obras-avancadas-valor">
+        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/obras-avancadas-2.png" alt="Obras avançadas">
+    </div>
 </div>
 <div id="conceito" class="video">
     <div class="container">

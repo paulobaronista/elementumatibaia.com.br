@@ -52,6 +52,9 @@
             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/obras-avancadas.png" alt="Obras avançadas">
         </a>
     </div>
+    <div class="btn-obras-avancadas-valor">
+        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/obras-avancadas-2.png" alt="Obras avançadas">
+    </div>
 </div>
 <div id="conceito" class="video">
     <div class="container">
@@ -477,6 +480,7 @@
         <button type="button" class="close" id="close"><span aria-hidden="true">&times;</span></button>
         <p>O e-mail não pode ser enviado!<br />
             <strong>Tente novamente!</strong><br />
-            Se o problema persistir, entre em contato pelo telefone <strong>(11) 4412-2692</strong></p>
+            Se o problema persistir, entre em contato pelo telefone <strong>(11) 4412-2692</strong>
+        </p>
     </div>
 </div>
