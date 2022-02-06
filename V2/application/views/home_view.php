@@ -406,7 +406,10 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off">
                 <div class="col-xs-12 col-sm-6 col-md-5">
                     <p class="txt1">QUER SABER MAIS?</p>
-                    <p class="txt2">ANTECIPE-SE E CONHEÇA<br>TODOS OS DETALHES.</p>
+                    <!-- <p class="txt2">ANTECIPE-SE E CONHEÇA<br>TODOS OS DETALHES.</p> -->
+                    <a class="cta-reserva-elementum" href="http://reservaelementum.com.br/" target="_blank">
+                        <img class="img-responsive" src="<?= base_url(); ?>assets/images/cta-reserva-elementum.png" alt="Reserva Elementum">
+                    </a>
                     <img class="img-responsive elementum-contato" src="<?= base_url(); ?>assets/images/elementum-contato.png" alt="Elementum">
                     <a class="whatsApp" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511930352284" target="_blank">
                         <img class="img-responsive" src="<?= base_url(); ?>assets/images/whatsApp.png" alt="WhatsApp">

@@ -1,6 +1,7 @@
 .contato {
     padding-top: 30px;
     padding-bottom: 20px;
+
     .txt1 {
         font-family: 'Proxima Nova Rg';
         font-weight: bold;
@@ -9,6 +10,7 @@
         font-size: 25px;
         line-height: 25px;
     }
+
     .txt2 {
         font-family: 'Proxima Nova Rg';
         font-weight: normal;
@@ -17,18 +19,29 @@
         font-size: 25px;
         line-height: 28px;
     }
+
     .elementum-contato {
-        margin-top: 30px;
+        margin-top: 10px;
     }
+
+    .cta-reserva-elementum {
+        img {
+            margin-top: 10px;
+        }
+    }
+
     .whatsApp {
         display: block;
         margin-top: 20px;
     }
+
     .redes {
         margin-top: 20px;
+
         div {
             display: block;
             float: right;
+
             a {
                 width: 40px;
                 height: 40px;
@@ -37,6 +50,7 @@
             }
         }
     }
+
     .form-control {
         font-family: 'Dax';
         font-weight: 300;
@@ -96,14 +110,16 @@
 
 /* Extra Small */
 @media(max-width:767px) {
-    .contato { 
+    .contato {
         padding-top: 20px;
+
         .elementum-contato {
             margin-top: 10px;
             max-width: 60%;
             margin-left: auto;
             margin-right: auto;
         }
+
         .whatsApp {
             margin-top: 10px;
             max-width: 70%;

@@ -22,7 +22,11 @@
 }
 
 .contato .elementum-contato {
-  margin-top: 30px;
+  margin-top: 10px;
+}
+
+.contato .cta-reserva-elementum img {
+  margin-top: 10px;
 }
 
 .contato .whatsApp {
