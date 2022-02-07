@@ -355,6 +355,10 @@ p {
             font-size: 12px;
             line-height: 14px;
             margin-top: 7px;
+            a {
+                text-decoration: underline;
+                color: #ffffff;
+            }
         }
 
         .btn_cookie {

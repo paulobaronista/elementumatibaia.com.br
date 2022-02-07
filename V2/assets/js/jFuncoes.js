@@ -1,15 +1,12 @@
 $(document).ready(function () {
 	$('#cookies').show();
-	$('body').css('overflow', 'hidden');
 	if (window.localStorage.getItem('accept_cookies')) {
 		$('#cookies').hide();
-		$('body').css('overflow', 'auto');
 		return false;
 	}
 	$(".btn_cookie").click(function () {
 		window.localStorage.setItem('accept_cookies', true);
 		$('#cookies').hide();
-		$('body').css('overflow', 'auto');
 		return false;
 	});
 });
