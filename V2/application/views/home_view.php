@@ -11,6 +11,9 @@
                     </button>
                     <a class="navbar-brand scrollink" href="#home"><img class="img-responsive" src="<?= base_url(); ?>assets/images/logo-elementum.png" alt="Elementum Atibaia"></a>
                     <img class="lancamento img-responsive" src="<?= base_url(); ?>assets/images/bt-lancamento2.png?1551369906082" alt="Lançamento">
+                    <a class="cronograma" target="_blank" href="<?= base_url(); ?>assets/pdf/TELA_CRONOGRAMA_ELEMENTUM.pdf">
+                        <img class="img-responsive" src="<?= base_url(); ?>assets/images/SELO_CRONOGRAMA_EMPREENDIMENTO.png" alt="Cronograma">
+                    </a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -454,8 +457,13 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 form-group">
                                 <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" required="required" placeholder="Mensagem*:"></textarea>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Enviar</button>
+                            <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
+                                <div class="col-xs-12 col-sm-6 col-md-6 form-group">
+                                    <div class="g-recaptcha" data-callback="recaptcha_callback" data-sitekey="6LfWgTEhAAAAAFnSoQXTNWsmYSitp5RJnisMQJwZ" style="transform:scale(0.88);-webkit-transform:scale(0.88);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 form-group">
+                                    <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar" disabled>Enviar</button>
+                                </div>
                             </div>
                         </div>
                     </form>

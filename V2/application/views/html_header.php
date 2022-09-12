@@ -33,7 +33,7 @@
     );
     echo meta($meta);
     echo link_tag('assets/css/bootstrap.min.css');
-    echo link_tag('assets/css/style.css?v=1.6.2');
+    echo link_tag('assets/css/style.css?v=1.6.3');
     echo link_tag('assets/css/lightbox.min.css');
     echo link_tag('assets/css/slick.css');
     echo link_tag('assets/css/slick-theme.css');
@@ -51,6 +51,8 @@
 
         gtag('config', 'AW-461066954');
     </script>
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>

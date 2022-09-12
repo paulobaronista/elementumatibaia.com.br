@@ -1,0 +1,43 @@
+.novoTexto p {
+  font-family: 'Proxima Nova Rg';
+  font-weight: normal;
+  font-style: normal;
+  color: #f26722;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.novoTexto p a {
+  color: #f26722;
+  text-decoration: underline;
+}
+
+.dt-tel {
+  font-family: 'Dax';
+  font-weight: 500;
+  font-style: normal;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  line-height: 30px;
+  color: #f26722;
+}
+
+.dt-tel span {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .dt-tel {
+    margin-top: 0px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=home.css.map */

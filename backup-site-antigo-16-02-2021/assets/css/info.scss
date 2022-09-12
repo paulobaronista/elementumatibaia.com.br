@@ -1,0 +1,89 @@
+.info {
+    padding-bottom: 25px;
+
+    h6 {
+        font-family: 'Proxima Nova Rg';
+        font-weight: normal;
+        font-style: normal;
+        color: #00582c;
+        text-transform: uppercase;
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-family: 'Proxima Nova Rg';
+        font-weight: normal;
+        font-style: normal;
+        color: #000000;
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    span {
+        display: table;
+        margin: 0 auto;
+        padding: 10px 20px 10px 10px;
+        background-color: rgba(169, 200, 50, 0.2);
+
+        p {
+            font-family: 'Proxima Nova Rg';
+            font-weight: bold;
+            font-style: normal;
+            color: #00582c;
+        }
+    }
+
+    .dt::before {
+        width: 2px;
+        height: 140px;
+        position: absolute;
+        right: -1px;
+        top: 22%;
+        background-color: #f26722;
+        content: '';
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .info {
+        padding-bottom: 20px;
+
+        h6 {
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 20px;
+            margin-bottom: 0;
+            ;
+        }
+
+        .dt::before {
+            width: 140px;
+            height: 2px;
+            position: absolute;
+            right: 0;
+            bottom: -15px;
+            top: auto;
+            background-color: #f26722;
+            content: '';
+            left: 50%;
+            margin-left: -70px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

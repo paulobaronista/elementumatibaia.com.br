@@ -1,0 +1,376 @@
+.contato {
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .tt {
+        padding-bottom: 10px;
+        padding-top: 13px;
+        background-color: #9aca3c;
+        border-radius: 5px;
+
+        p {
+            font-family: 'Proxima Nova Rg';
+            font-weight: normal;
+            font-style: normal;
+            color: #204620;
+            font-size: 22px;
+            line-height: 22px;
+            text-transform: uppercase;
+        }
+    }
+
+    .checkbox-inline {
+        font-family: 'Proxima Nova Rg';
+        font-weight: 300;
+        font-style: normal;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, 0.5);
+        a {
+            color: rgba(0, 0, 0, 0.5);
+            text-decoration: underline;
+        }
+    }
+
+    .box-check {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border: 2px solid #b7c726;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+
+    .form-control {
+        font-family: 'Proxima Nova Rg';
+        font-weight: 300;
+        font-style: normal;
+        height: 40px;
+        padding: 6px 12px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #000000;
+        border: 2px solid #b7c726;
+        border-radius: 5px;
+        box-shadow: none;
+
+        &::-webkit-input-placeholder {
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        &:-ms-input-placeholder {
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        &::placeholder {
+            color: rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    .line-r-off {
+        border-right: 0px solid transparent;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .line-l-off {
+        border-left: 0px solid transparent;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    textarea {
+        height: 100px !important;
+    }
+
+    .btn_enviar {
+        font-family: 'Proxima Nova Rg';
+        font-weight: 500;
+        font-style: normal;
+        width: 95%;
+        background-color: #204620;
+        padding: 6px 12px;
+        font-size: 18px;
+        color: #9aca3c;
+        border: 0px solid transparent;
+        border-radius: 5px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-left: 5%;
+    }
+
+    .bg {
+        padding-top: 19px;
+        padding-bottom: 19px;
+        background-color: #9aca3c;
+        border-radius: 5px;
+    }
+
+    .txt {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        p {
+            font-family: 'Proxima Nova Rg';
+            font-weight: 400;
+            font-style: normal;
+            color: #204620;
+            font-size: 25px;
+            line-height: 25px;
+        }
+    }
+
+    .mapa {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        h6,
+        p {
+            font-family: 'Proxima Nova Rg';
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        h6 {
+            font-size: 25px;
+            line-height: 25px;
+            color: #f26722;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 5px;
+            margin-top: 145px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 25px;
+            color: #00582c;
+        }
+    }
+}
+
+
+footer {
+    padding-bottom: 15px;
+
+    h6 {
+        font-family: 'Proxima Nova Rg';
+        font-weight: bold;
+        font-style: normal;
+        color: #f26722;
+        font-size: 25px;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+    }
+
+    figcaption,
+    p {
+        font-family: 'Proxima Nova Rg';
+        font-weight: 300;
+        font-style: normal;
+        color: #000000;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    p {
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 17px;
+    }
+
+    figcaption {
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    .l {
+        border-left: solid 2px #000;
+    }
+
+    .navbar-nav {
+        margin-top: 20px;
+
+        li {
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+
+        li>a {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            font-family: 'Proxima Nova Rg';
+            font-weight: 300;
+            font-style: normal;
+            color: #000;
+            text-transform: uppercase;
+            font-size: 14px;
+            line-height: 14px;
+            border-right: 1px solid #000;
+        }
+
+        li>a:focus,
+        li>a:hover {
+            text-decoration: underline;
+            background-color: transparent;
+        }
+
+        li:last-child a {
+            border-right: 0px solid transparent;
+        }
+    }
+}
+
+.cookies {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    height: 100%;
+    top: 0;
+    display: none;
+
+    .box {
+        background-color: #204620;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: absolute;
+        bottom: 20px;
+
+        p {
+            font-family: 'Proxima Nova Rg';
+            font-weight: 300;
+            font-style: normal;
+            color: #fff;
+            font-size: 12px;
+            line-height: 14px;
+            margin-top: 7px;
+        }
+
+        .btn_cookie {
+            font-family: 'Proxima Nova Rg';
+            font-weight: bold;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 16px;
+            color: #fff;
+            border: 0px solid transparent;
+            border-radius: 50px;
+            padding: 12px 30px;
+            width: 160px;
+            margin-top: 7px;
+            box-shadow: none;
+            background: #f26722;
+        }
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .contato {
+        .tt {
+            p {
+                font-size: 18px;
+                line-height: 18px;
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+        }
+
+        .form-control {
+            height: 50px;
+        }
+
+        textarea {
+            height: 150px !important;
+        }
+
+        .line-r-off {
+            border-right: 2px solid #b7c726;
+            border-radius: 5px;
+        }
+
+        .line-l-off {
+            border-left: 2px solid #b7c726;
+            border-radius: 5px;
+        }
+
+        .btn_enviar {
+            width: 100%;
+            margin-left: 0%;
+            padding: 12px 12px;
+        }
+
+        .txt {
+            margin-bottom: 10px;
+
+            p {
+                font-size: 20px;
+                line-height: 20px;
+            }
+        }
+
+        .mapa {
+
+            h6 {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    footer {
+        h6 {
+            font-size: 18px;
+            line-height: 23px;
+            margin-bottom: 20px;
+        }
+
+        figcaption {
+            font-size: 11px;
+            line-height: 11px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        p {
+            padding-left: 0px;
+            padding-right: 0px;
+            font-size: 12px;
+            line-height: 12px;
+        }
+
+        .l {
+            border-left: solid 0px;
+            border-bottom: solid 2px #000;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .navbar-nav {
+            li>a {
+                border-right: 0px solid transparent;
+            }
+        }
+    }
+
+    .cookies {
+        .box {
+            padding-top: 10px;
+
+            .btn_cookie {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

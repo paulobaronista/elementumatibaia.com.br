@@ -517,6 +517,13 @@ p {
   z-index: 9;
 }
 
+.menu .navbar-header .cronograma {
+  position: absolute;
+  top: 47px;
+  right: -258%;
+  z-index: 9;
+}
+
 .menu .navbar-brand {
   position: relative;
   height: 45px;
@@ -562,6 +569,13 @@ p {
     width: 140px;
     left: 124px;
   }
+  .menu .navbar-header .cronograma {
+    position: absolute;
+    top: 0;
+    right: 20%;
+    z-index: 9;
+    width: 140px;
+  }
   .menu .navbar-collapse {
     background-color: rgba(0, 0, 0, 0.5);
   }
@@ -606,6 +620,12 @@ p {
     position: absolute;
     top: 45px;
     right: -98px;
+  }
+  .menu .navbar-header .cronograma {
+    position: absolute;
+    top: 45px;
+    right: -367px;
+    width: 120px;
   }
   .menu .navbar-nav > li > a {
     font-size: 12px;

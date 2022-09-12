@@ -36,7 +36,7 @@ class Contato extends CI_Controller
             $this->email->from("contato@elementumatibaia.com.br", "Elementum Residencial Atibaia");
             $this->email->to('contato@elementumatibaia.com.br');
             $this->email->cc('mv_cp_94f_300_1828_3079_14166_68525_3535_3535_faleconosco_hotsiteempreendimento@email.anapro.com.br, renata@spicycomm.com.br, leadselememtum@gmail.com, front.baronista@gmail.com');
-
+        
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
             <head> <meta http-equiv='content-type' content='text/html;charset=UTF-8' /> </head><body>
@@ -50,9 +50,36 @@ class Contato extends CI_Controller
             Mensagem:	      {$mensagem}<br/>
             </body></html>");
 
+            $this->email->send();
+
             if ($this->email->send()) {
-                redirect('contato/obrigado');
-            } else {
+
+                $secret = "6LfWgTEhAAAAAC35AoCmx5ZZC4h104yI9XOje499";
+                $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secret."&response=".$_POST['g-recaptcha-response'], false);
+                $response = json_decode($response, true);
+                // prepare post variables
+                $post = [
+                    'secret' => $secret,
+                    'response' => $_POST['g-recaptcha-response'],
+                ];
+
+                $ch = curl_init('https://www.google.com/recaptcha/api/siteverify');
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+
+                $response = curl_exec($ch);
+                curl_close($ch);
+
+                //var_dump($response);
+                $response = json_decode($response, true);
+
+                // check result
+                if(isset($response['success']) && $response['success'] == true){
+                    redirect('contato/obrigado');
+                }else{
+                    redirect('contato/obrigado');
+                }
+            }else {
                 redirect('contato/fail');
             }
         }

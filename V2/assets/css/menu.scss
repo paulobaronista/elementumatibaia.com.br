@@ -23,6 +23,13 @@
             right: -200px;
             z-index: 9;
         }
+
+        .cronograma {
+            position: absolute;
+            top: 47px;
+            right: -258%;
+            z-index: 9;
+        }
     }
 
     .navbar-brand {
@@ -76,6 +83,14 @@
                 right: auto;
                 width: 140px;
                 left: 124px;
+            }
+
+            .cronograma {
+                position: absolute;
+                top: 0;
+                right: 20%;
+                z-index: 9;
+                width: 140px;
             }
         }
 
@@ -132,6 +147,13 @@
                 position: absolute;
                 top: 45px;
                 right: -98px;
+            }
+
+            .cronograma {
+                position: absolute;
+                top: 45px;
+                right: -367px;
+                width: 120px;
             }
         }
 

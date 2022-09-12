@@ -1,0 +1,47 @@
+.novoTexto {
+    p {
+        font-family: 'Proxima Nova Rg';
+        font-weight: normal;
+        font-style: normal;
+        color: #f26722;
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 25px;
+        a {
+            color: #f26722;
+            text-decoration: underline;
+        }
+    }
+}
+
+.dt-tel {
+    font-family: 'Dax';
+    font-weight: 500;
+    font-style: normal;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #f26722;
+    span {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .dt-tel {
+        margin-top: 0px;
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

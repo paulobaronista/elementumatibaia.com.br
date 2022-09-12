@@ -11,6 +11,9 @@
                     </button>
                     <a class="navbar-brand scrollink" href="#home"><img class="img-responsive" src="<?= base_url(); ?>assets/images/logo-elementum.png" alt="Elementum Atibaia"></a>
                     <img class="lancamento img-responsive" src="<?= base_url(); ?>assets/images/bt-lancamento2.png?1551369906082" alt="Lançamento">
+                    <a class="cronograma" target="_blank" href="<?= base_url(); ?>assets/pdf/TELA_CRONOGRAMA_ELEMENTUM.pdf">
+                        <img class="img-responsive" src="<?= base_url(); ?>assets/images/SELO_CRONOGRAMA_EMPREENDIMENTO.png" alt="Cronograma">
+                    </a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
